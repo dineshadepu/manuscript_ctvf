@@ -1,0 +1,413 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\BIBand}{and}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\undefined \def\xfnm[#1]{\unskip,\space#1}\fi
+\makeatletter\def\@biblabel#1{#1.}\makeatother
+%Type = Article
+\bibitem[{Lucy(1977)}]{lucy77}
+\bibinfo{author}{Lucy\xfnm[ L.B.]}.
+\newblock \bibinfo{title}{{A numerical approach to testing the fission
+  hypothesis}}.
+\newblock \emph{\bibinfo{journal}{The Astronomical Journal}}
+  \bibinfo{year}{1977};\bibinfo{volume}{82}(\bibinfo{number}{12}):\bibinfo{pages}{1013--1024}.
+%Type = Article
+\bibitem[{Gingold and Monaghan(1977)}]{monaghan-gingold-stars-mnras-77}
+\bibinfo{author}{Gingold\xfnm[ R.A.]}, \bibinfo{author}{Monaghan\xfnm[ J.J.]}.
+\newblock \bibinfo{title}{Smoothed particle hydrodynamics: Theory and
+  application to non-spherical stars}.
+\newblock \emph{\bibinfo{journal}{Monthly Notices of the Royal Astronomical
+  Society}}
+  \bibinfo{year}{1977};\bibinfo{volume}{181}:\bibinfo{pages}{375--389}.
+%Type = Article
+\bibitem[{Monaghan(2005)}]{monaghan-review:2005}
+\bibinfo{author}{Monaghan\xfnm[ J.J.]}.
+\newblock \bibinfo{title}{{Smoothed Particle Hydrodynamics}}.
+\newblock \emph{\bibinfo{journal}{{Reports on Progress in Physics}}}
+  \bibinfo{year}{2005};\bibinfo{volume}{68}:\bibinfo{pages}{1703--1759}.
+%Type = Article
+\bibitem[{Monaghan(1994)}]{sph:fsf:monaghan-jcp94}
+\bibinfo{author}{Monaghan\xfnm[ J.J.]}.
+\newblock \bibinfo{title}{Simulating free surface flows with {SPH}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{1994};\bibinfo{volume}{110}:\bibinfo{pages}{399--406}.
+%Type = Article
+\bibitem[{Cummins and Rudman(1999)}]{sph:psph:cummins-rudman:jcp:1999}
+\bibinfo{author}{Cummins\xfnm[ S.J.]}, \bibinfo{author}{Rudman\xfnm[ M.]}.
+\newblock \bibinfo{title}{An {SPH} projection method}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{1999};\bibinfo{volume}{152}:\bibinfo{pages}{584--607}.
+%Type = Article
+\bibitem[{Randles and Libersky(1996)}]{randles-1996}
+\bibinfo{author}{Randles\xfnm[ P.]}, \bibinfo{author}{Libersky\xfnm[ L.]}.
+\newblock \bibinfo{title}{Smoothed {Particle} {Hydrodynamics}: {Some} recent
+  improvements and applications}.
+\newblock \emph{\bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}}
+  \bibinfo{year}{1996};\bibinfo{volume}{139}(\bibinfo{number}{1-4}):\bibinfo{pages}{375--408}.
+\newblock \DOIprefix\doi{10.1016/S0045-7825(96)01090-0}.
+%Type = Article
+\bibitem[{Gray et~al.(2001)Gray, Monaghan and Swift}]{gray-ed-2001}
+\bibinfo{author}{Gray\xfnm[ J.]}, \bibinfo{author}{Monaghan\xfnm[ J.]},
+  \bibinfo{author}{Swift\xfnm[ R.]}.
+\newblock \bibinfo{title}{{SPH} elastic dynamics}.
+\newblock \emph{\bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}}
+  \bibinfo{year}{2001};\bibinfo{volume}{190}(\bibinfo{number}{49-50}):\bibinfo{pages}{6641--6662}.
+\newblock \DOIprefix\doi{10.1016/S0045-7825(01)00254-7}; \bibinfo{note}{iSBN:
+  6139905443}.
+%Type = Article
+\bibitem[{Rafiee and Thiagarajan(2009)}]{rafiee:fsi-2009}
+\bibinfo{author}{Rafiee\xfnm[ A.]}, \bibinfo{author}{Thiagarajan\xfnm[ K.P.]}.
+\newblock \bibinfo{title}{An {SPH} projection method for simulating
+  fluid-hypoelastic struc ture interaction}.
+\newblock \emph{\bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}}
+  \bibinfo{year}{2009};\bibinfo{volume}{198}(\bibinfo{number}{33}):\bibinfo{pages}{2785--2795}.
+\newblock \DOIprefix\doi{10.1016/j.cma.2009.04.001}.
+%Type = Article
+\bibitem[{Khayyer et~al.(2018)Khayyer, Gotoh, Falahaty and
+  Shimi~zu}]{khayyer-fsi-2018}
+\bibinfo{author}{Khayyer\xfnm[ A.]}, \bibinfo{author}{Gotoh\xfnm[ H.]},
+  \bibinfo{author}{Falahaty\xfnm[ H.]}, \bibinfo{author}{Shimi~zu\xfnm[ Y.]}.
+\newblock \bibinfo{title}{An enhanced {ISPH}–{SPH} coupled method for
+  simulation of incompr essible fluid–elastic structure interactions}.
+\newblock \emph{\bibinfo{journal}{Computer Physics Communications}}
+  \bibinfo{year}{2018};\bibinfo{volume}{232}:\bibinfo{pages}{139--164}.
+\newblock \DOIprefix\doi{10.1016/j.cpc.2018.05.012}.
+%Type = Article
+\bibitem[{Sun et~al.(2021)Sun, Le~Touz{\'e}, Oger and Zhang}]{sun2021accurate}
+\bibinfo{author}{Sun\xfnm[ P.N.]}, \bibinfo{author}{Le~Touz{\'e}\xfnm[ D.]},
+  \bibinfo{author}{Oger\xfnm[ G.]}, \bibinfo{author}{Zhang\xfnm[ A.M.]}.
+\newblock \bibinfo{title}{An accurate fsi-sph modeling of challenging
+  fluid-structure interaction problems in two and three dimensions}.
+\newblock \emph{\bibinfo{journal}{Ocean Engineering}}
+  \bibinfo{year}{2021};\bibinfo{volume}{221}:\bibinfo{pages}{108552}.
+\newblock \DOIprefix\doi{10.1016/j.oceaneng.2020.108552}.
+%Type = Article
+\bibitem[{Bui et~al.(2008)Bui, Fukagawa, Sako and Ohno}]{bui2008lagrangian}
+\bibinfo{author}{Bui\xfnm[ H.H.]}, \bibinfo{author}{Fukagawa\xfnm[ R.]},
+  \bibinfo{author}{Sako\xfnm[ K.]}, \bibinfo{author}{Ohno\xfnm[ S.]}.
+\newblock \bibinfo{title}{Lagrangian meshfree particles method (sph) for large
+  deformation and failure flows of geomaterial using elastic–plastic soil
+  constitutive model}.
+\newblock \emph{\bibinfo{journal}{International Journal for Numerical and
+  Analytical Methods in Geomechanics}}
+  \bibinfo{year}{2008};\bibinfo{volume}{32}(\bibinfo{number}{12}):\bibinfo{pages}{1537--1570}.
+\newblock \DOIprefix\doi{https://doi.org/10.1002/nag.688}.
+%Type = Article
+\bibitem[{Xu et~al.(2009{\natexlab{a}})Xu, Stansby and
+  Laurence}]{acc_stab_xu:jcp:2009}
+\bibinfo{author}{Xu\xfnm[ R.]}, \bibinfo{author}{Stansby\xfnm[ P.]},
+  \bibinfo{author}{Laurence\xfnm[ D.]}.
+\newblock \bibinfo{title}{Accuracy and stability in incompressible sph ({ISPH})
+  based on the projection method and a new approach}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2009}{\natexlab{a}};\bibinfo{volume}{228}(\bibinfo{number}{18}):\bibinfo{pages}{6703--6725}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2009.05.032}.
+%Type = Article
+\bibitem[{Lind et~al.(2012)Lind, Xu, Stansby and
+  Rogers}]{diff_smoothing_sph:lind:jcp:2012}
+\bibinfo{author}{Lind\xfnm[ S.]}, \bibinfo{author}{Xu\xfnm[ R.]},
+  \bibinfo{author}{Stansby\xfnm[ P.]}, \bibinfo{author}{Rogers\xfnm[ B.]}.
+\newblock \bibinfo{title}{Incompressible smoothed particle hydrodynamics for
+  free-surface flows: A generalised diffusion-based algorithm for stability and
+  validations for impulsive flows and propagating waves}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2012};\bibinfo{volume}{231}(\bibinfo{number}{4}):\bibinfo{pages}{1499
+  -- 1523}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2011.10.027}.
+%Type = Article
+\bibitem[{Skillen et~al.(2013)Skillen, Lind, Stansby and
+  Rogers}]{fickian_smoothing_sph:skillen:cmame:2013}
+\bibinfo{author}{Skillen\xfnm[ A.]}, \bibinfo{author}{Lind\xfnm[ S.]},
+  \bibinfo{author}{Stansby\xfnm[ P.K.]}, \bibinfo{author}{Rogers\xfnm[ B.D.]}.
+\newblock \bibinfo{title}{Incompressible smoothed particle hydrodynamics (sph)
+  with reduced temporal noise and generalised fickian smoothing applied to
+  body–water slam and efficient wave–body interaction}.
+\newblock \emph{\bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}} \bibinfo{year}{2013};\bibinfo{volume}{265}:\bibinfo{pages}{163
+  -- 173}.
+\newblock \DOIprefix\doi{10.1016/j.cma.2013.05.017}.
+%Type = Article
+\bibitem[{Huang et~al.(2019)Huang, Long, Li and Liu}]{huang_kernel_2019}
+\bibinfo{author}{Huang\xfnm[ C.]}, \bibinfo{author}{Long\xfnm[ T.]},
+  \bibinfo{author}{Li\xfnm[ S.]}, \bibinfo{author}{Liu\xfnm[ M.]}.
+\newblock \bibinfo{title}{A kernel gradient-free {SPH} method with iterative
+  particle shifting technology for modeling low-{Reynolds} flows around
+  airfoils}.
+\newblock \emph{\bibinfo{journal}{Engineering Analysis with Boundary Elements}}
+  \bibinfo{year}{2019};\bibinfo{volume}{106}:\bibinfo{pages}{571--587}.
+\newblock \DOIprefix\doi{10.1016/j.enganabound.2019.06.010}.
+%Type = Article
+\bibitem[{Ye et~al.(2019)Ye, Pan, Huang and Liu}]{ye2019sph}
+\bibinfo{author}{Ye\xfnm[ T.]}, \bibinfo{author}{Pan\xfnm[ D.]},
+  \bibinfo{author}{Huang\xfnm[ C.]}, \bibinfo{author}{Liu\xfnm[ M.]}.
+\newblock \bibinfo{title}{Smoothed particle hydrodynamics {(SPH)} for complex
+  fluid flows: Recent d evelopments in methodology and applications}.
+\newblock \emph{\bibinfo{journal}{Physics of Fluids}}
+  \bibinfo{year}{2019};\bibinfo{volume}{31}(\bibinfo{number}{1}):\bibinfo{pages}{011301}.
+%Type = Article
+\bibitem[{Adami et~al.(2013)Adami, Hu and Adams}]{Adami2013}
+\bibinfo{author}{Adami\xfnm[ S.]}, \bibinfo{author}{Hu\xfnm[ X.]},
+  \bibinfo{author}{Adams\xfnm[ N.]}.
+\newblock \bibinfo{title}{{A transport-velocity formulation for smoothed
+  particle hydrodynamics}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2013};\bibinfo{volume}{241}:\bibinfo{pages}{292--307}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2013.01.043}.
+%Type = Article
+\bibitem[{Zhang et~al.(2017)Zhang, Hu and Adams}]{zhang_hu_adams17}
+\bibinfo{author}{Zhang\xfnm[ C.]}, \bibinfo{author}{Hu\xfnm[ X.Y.T.]},
+  \bibinfo{author}{Adams\xfnm[ N.A.]}.
+\newblock \bibinfo{title}{A generalized transport-velocity formulation for
+  smoothed particle hydrodynamics}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2017};\bibinfo{volume}{337}:\bibinfo{pages}{216--232}.
+%Type = Article
+\bibitem[{Oger et~al.(2016)Oger, Marrone, Le~Touzé and
+  de~Leffe}]{oger_ale_sph_2016}
+\bibinfo{author}{Oger\xfnm[ G.]}, \bibinfo{author}{Marrone\xfnm[ S.]},
+  \bibinfo{author}{Le~Touzé\xfnm[ D.]}, \bibinfo{author}{de~Leffe\xfnm[ M.]}.
+\newblock \bibinfo{title}{{SPH} accuracy improvement through the combination of
+  a quasi-{Lagrangian} shifting transport velocity and consistent {ALE}
+  formalisms}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2016};\bibinfo{volume}{313}:\bibinfo{pages}{76--98}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2016.02.039}.
+%Type = Article
+\bibitem[{Sun et~al.(2019)Sun, Colagrossi, Marrone, Antuono and
+  Zhang}]{sun_consistent_2019}
+\bibinfo{author}{Sun\xfnm[ P.]}, \bibinfo{author}{Colagrossi\xfnm[ A.]},
+  \bibinfo{author}{Marrone\xfnm[ S.]}, \bibinfo{author}{Antuono\xfnm[ M.]},
+  \bibinfo{author}{Zhang\xfnm[ A.M.]}.
+\newblock \bibinfo{title}{A consistent approach to particle shifting in the
+  delta - {Plus} -{SPH} model}.
+\newblock \emph{\bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}}
+  \bibinfo{year}{2019};\bibinfo{volume}{348}:\bibinfo{pages}{912--934}.
+\newblock \DOIprefix\doi{10.1016/j.cma.2019.01.045}.
+%Type = Article
+\bibitem[{Ramachandran and Puri(2019)}]{edac-sph:cf:2019}
+\bibinfo{author}{Ramachandran\xfnm[ P.]}, \bibinfo{author}{Puri\xfnm[ K.]}.
+\newblock \bibinfo{title}{Entropically damped artificial compressibility for
+  {SPH}}.
+\newblock \emph{\bibinfo{journal}{Computers and Fluids}}
+  \bibinfo{year}{2019};\bibinfo{volume}{179}(\bibinfo{number}{30}):\bibinfo{pages}{579--594}.
+\newblock \DOIprefix\doi{10.1016/j.compfluid.2018.11.023}.
+%Type = Article
+\bibitem[{Clausen(2013)}]{Clausen2013}
+\bibinfo{author}{Clausen\xfnm[ J.R.]}.
+\newblock \bibinfo{title}{{Entropically damped form of artificial
+  compressibility for explicit simulation of incompressible flow}}.
+\newblock \emph{\bibinfo{journal}{Physical Review E}}
+  \bibinfo{year}{2013};\bibinfo{volume}{87}(\bibinfo{number}{1}):\bibinfo{pages}{013309--1--013309--12}.
+\newblock \DOIprefix\doi{10.1103/PhysRevE.87.013309}.
+%Type = Article
+\bibitem[{Antuono et~al.(2021)Antuono, Sun, Marrone and
+  Colagrossi}]{antuono2021delta}
+\bibinfo{author}{Antuono\xfnm[ M.]}, \bibinfo{author}{Sun\xfnm[ P.]},
+  \bibinfo{author}{Marrone\xfnm[ S.]}, \bibinfo{author}{Colagrossi\xfnm[ A.]}.
+\newblock \bibinfo{title}{The $\delta$-ale-sph model: An arbitrary
+  lagrangian-eulerian framework for the $\delta$-sph model with particle
+  shifting technique}.
+\newblock \emph{\bibinfo{journal}{Computers \& Fluids}}
+  \bibinfo{year}{2021};\bibinfo{volume}{216}:\bibinfo{pages}{104806}.
+%Type = Article
+\bibitem[{Sugiura and Inutsuka(2017)}]{sugiura2017extension}
+\bibinfo{author}{Sugiura\xfnm[ K.]}, \bibinfo{author}{Inutsuka\xfnm[ S.i.]}.
+\newblock \bibinfo{title}{An extension of godunov sph ii: Application to
+  elastic dynamics}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2017};\bibinfo{volume}{333}:\bibinfo{pages}{78--103}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2016.12.026}.
+%Type = Article
+\bibitem[{Dyka and Ingel(1995)}]{dyka1995approach}
+\bibinfo{author}{Dyka\xfnm[ C.]}, \bibinfo{author}{Ingel\xfnm[ R.]}.
+\newblock \bibinfo{title}{An approach for tension instability in smoothed
+  particle hydrodynamics (sph)}.
+\newblock \emph{\bibinfo{journal}{Computers \& structures}}
+  \bibinfo{year}{1995};\bibinfo{volume}{57}(\bibinfo{number}{4}):\bibinfo{pages}{573--580}.
+\newblock \DOIprefix\doi{10.1016/0045-7949(95)00059-P}.
+%Type = Article
+\bibitem[{Belytschko et~al.(2000)Belytschko, Guo, Kam~Liu and
+  Ping~Xiao}]{belytschko2000unified}
+\bibinfo{author}{Belytschko\xfnm[ T.]}, \bibinfo{author}{Guo\xfnm[ Y.]},
+  \bibinfo{author}{Kam~Liu\xfnm[ W.]}, \bibinfo{author}{Ping~Xiao\xfnm[ S.]}.
+\newblock \bibinfo{title}{A unified stability analysis of meshless particle
+  methods}.
+\newblock \emph{\bibinfo{journal}{International Journal for Numerical Methods
+  in Engineering}}
+  \bibinfo{year}{2000};\bibinfo{volume}{48}(\bibinfo{number}{9}):\bibinfo{pages}{1359--1400}.
+\newblock
+  \DOIprefix\doi{10.1002/1097-0207(20000730)48:9<1359::AID-NME829>3.0.CO;2-U}.
+%Type = Inproceedings
+\bibitem[{Ramachandran(2016)}]{PR:pysph:scipy16}
+\bibinfo{author}{Ramachandran\xfnm[ P.]}.
+\newblock \bibinfo{title}{{PySPH}: a reproducible and high-performance
+  framework for smoothed particle hydrodynamics}.
+\newblock In: \bibinfo{editor}{Benthall\xfnm[ S.]},
+  \bibinfo{editor}{Rostrup\xfnm[ S.]}, eds.
+  \emph{\bibinfo{booktitle}{{P}roceedings of the 15th {P}ython in {S}cience
+  {C}onference}}. \bibinfo{year}{2016}:\unskip \bibinfo{pages}{127 -- 135}.
+%Type = Article
+\bibitem[{Ramachandran et~al.(2020)Ramachandran, Bhosale, Puri, Negi, Muta,
+  Adepu, Menon, Govind, Sanka, Sebastian, Sen, Kaushik, Kumar, Kurapati, Patil,
+  Tavker, Pandey, Kaushik, Dutt and Agarwal}]{pysph2020}
+\bibinfo{author}{Ramachandran\xfnm[ P.]}, \bibinfo{author}{Bhosale\xfnm[ A.]},
+  \bibinfo{author}{Puri\xfnm[ K.]}, \bibinfo{author}{Negi\xfnm[ P.]},
+  \bibinfo{author}{Muta\xfnm[ A.]}, \bibinfo{author}{Adepu\xfnm[ D.]},
+  \bibinfo{author}{Menon\xfnm[ D.]}, \bibinfo{author}{Govind\xfnm[ R.]},
+  \bibinfo{author}{Sanka\xfnm[ S.]}, \bibinfo{author}{Sebastian\xfnm[ A.S.]},
+  \bibinfo{author}{Sen\xfnm[ A.]}, \bibinfo{author}{Kaushik\xfnm[ R.]},
+  \bibinfo{author}{Kumar\xfnm[ A.]}, \bibinfo{author}{Kurapati\xfnm[ V.]},
+  \bibinfo{author}{Patil\xfnm[ M.]}, \bibinfo{author}{Tavker\xfnm[ D.]},
+  \bibinfo{author}{Pandey\xfnm[ P.]}, \bibinfo{author}{Kaushik\xfnm[ C.]},
+  \bibinfo{author}{Dutt\xfnm[ A.]}, \bibinfo{author}{Agarwal\xfnm[ A.]}.
+\newblock \bibinfo{title}{{PySPH}: a {Python-based} framework for smoothed
+  particle hydrodynamics}.
+\newblock \emph{\bibinfo{journal}{arXiv preprint arXiv:190904504}}
+  \bibinfo{year}{2020};\URLprefix \url{https://arxiv.org/abs/1909.04504}.
+%Type = Article
+\bibitem[{Ramachandran(2018)}]{pr:automan:2018}
+\bibinfo{author}{Ramachandran\xfnm[ P.]}.
+\newblock \bibinfo{title}{automan: A python-based automation framework for
+  numerical computing}.
+\newblock \emph{\bibinfo{journal}{Computing in Science \& Engineering}}
+  \bibinfo{year}{2018};\bibinfo{volume}{20}(\bibinfo{number}{5}):\bibinfo{pages}{81--97}.
+\newblock \DOIprefix\doi{10.1109/MCSE.2018.05329818}.
+%Type = Article
+\bibitem[{Antuono et~al.(2010)Antuono, Colagrossi, Marrone and
+  Molteni}]{antuono-deltasph:cpc:2010}
+\bibinfo{author}{Antuono\xfnm[ M.]}, \bibinfo{author}{Colagrossi\xfnm[ A.]},
+  \bibinfo{author}{Marrone\xfnm[ S.]}, \bibinfo{author}{Molteni\xfnm[ D.]}.
+\newblock \bibinfo{title}{Free-surface flows solved by means of {SPH} schemes
+  with numerical diffusive terms}.
+\newblock \emph{\bibinfo{journal}{Computer Physics Communications}}
+  \bibinfo{year}{2010};\bibinfo{volume}{181}(\bibinfo{number}{3}):\bibinfo{pages}{532
+  -- 549}.
+\newblock \DOIprefix\doi{https://doi.org/10.1016/j.cpc.2009.11.002}.
+%Type = Inproceedings
+\bibitem[{Ramachandran and Puri(2015)}]{PRKP:edac-sph-iccm2015}
+\bibinfo{author}{Ramachandran\xfnm[ P.]}, \bibinfo{author}{Puri\xfnm[ K.]}.
+\newblock \bibinfo{title}{Entropically damped artificial compressibility for
+  {SPH}}.
+\newblock In: \bibinfo{editor}{Liu\xfnm[ G.R.]}, \bibinfo{editor}{Das\xfnm[
+  R.]}, eds. \emph{\bibinfo{booktitle}{Proceedings of the 6th International
+  Conference on Computational Methods 5 conference}}; vol.~\bibinfo{volume}{2}.
+  \bibinfo{address}{Auckland, New Zealand}; \bibinfo{year}{2015}:\unskip
+  \bibinfo{pages}{Paper ID 1210}.
+\newblock \URLprefix
+  \url{http://www.sci-en-tech.com/ICCM2015/PDFs/1210-3216-1-PB.pdf}.
+%Type = Article
+\bibitem[{Morris et~al.(1997)Morris, Fox and Zhu}]{morris1997modeling}
+\bibinfo{author}{Morris\xfnm[ J.P.]}, \bibinfo{author}{Fox\xfnm[ P.J.]},
+  \bibinfo{author}{Zhu\xfnm[ Y.]}.
+\newblock \bibinfo{title}{Modeling low reynolds number incompressible flows
+  using sph}.
+\newblock \emph{\bibinfo{journal}{Journal of computational physics}}
+  \bibinfo{year}{1997};\bibinfo{volume}{136}(\bibinfo{number}{1}):\bibinfo{pages}{214--226}.
+%Type = Article
+\bibitem[{Sun et~al.(2017)Sun, Colagrossi, Marrone and
+  Zhang}]{sun2017deltaplus}
+\bibinfo{author}{Sun\xfnm[ P.]}, \bibinfo{author}{Colagrossi\xfnm[ A.]},
+  \bibinfo{author}{Marrone\xfnm[ S.]}, \bibinfo{author}{Zhang\xfnm[ A.]}.
+\newblock \bibinfo{title}{The $\delta$plus-sph model: Simple procedures for a
+  further improvement of the sph scheme}.
+\newblock \emph{\bibinfo{journal}{Computer Methods in Applied Mechanics and
+  Engineering}}
+  \bibinfo{year}{2017};\bibinfo{volume}{315}:\bibinfo{pages}{25--49}.
+%Type = Article
+\bibitem[{Xu et~al.(2009{\natexlab{b}})Xu, Stansby and
+  Laurence}]{xu2009accuracy}
+\bibinfo{author}{Xu\xfnm[ R.]}, \bibinfo{author}{Stansby\xfnm[ P.]},
+  \bibinfo{author}{Laurence\xfnm[ D.]}.
+\newblock \bibinfo{title}{Accuracy and stability in incompressible sph (isph)
+  based on the projection method and a new approach}.
+\newblock \emph{\bibinfo{journal}{Journal of computational Physics}}
+  \bibinfo{year}{2009}{\natexlab{b}};\bibinfo{volume}{228}(\bibinfo{number}{18}):\bibinfo{pages}{6703--6725}.
+%Type = Article
+\bibitem[{Marrone et~al.(2010)Marrone, Colagrossi, Le~Touzé and
+  Graziani}]{marrone:sph:level-set:2010}
+\bibinfo{author}{Marrone\xfnm[ S.]}, \bibinfo{author}{Colagrossi\xfnm[ A.]},
+  \bibinfo{author}{Le~Touzé\xfnm[ D.]}, \bibinfo{author}{Graziani\xfnm[ G.]}.
+\newblock \bibinfo{title}{Fast free-surface detection and level-set function
+  definition in {SPH} solvers}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2010};\bibinfo{volume}{229}(\bibinfo{number}{10}):\bibinfo{pages}{3652--3663}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2010.01.019}.
+%Type = Article
+\bibitem[{Muta et~al.(2020)Muta, Ramachandran and Negi}]{muta_efficient_2020}
+\bibinfo{author}{Muta\xfnm[ A.]}, \bibinfo{author}{Ramachandran\xfnm[ P.]},
+  \bibinfo{author}{Negi\xfnm[ P.]}.
+\newblock \bibinfo{title}{An efficient, open source, iterative {ISPH} scheme}.
+\newblock \emph{\bibinfo{journal}{Computer Physics Communications}}
+  \bibinfo{year}{2020};\bibinfo{volume}{255}:\bibinfo{pages}{107283}.
+\newblock \DOIprefix\doi{10.1016/j.cpc.2020.107283}.
+%Type = Article
+\bibitem[{Adami et~al.(2012)Adami, Hu and Adams}]{Adami2012}
+\bibinfo{author}{Adami\xfnm[ S.]}, \bibinfo{author}{Hu\xfnm[ X.]},
+  \bibinfo{author}{Adams\xfnm[ N.]}.
+\newblock \bibinfo{title}{{A generalized wall boundary condition for smoothed
+  particle hydrodynamics}}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2012};\bibinfo{volume}{231}(\bibinfo{number}{21}):\bibinfo{pages}{7057--7075}.
+\newblock \DOIprefix\doi{10.1016/j.jcp.2012.05.005}.
+%Type = Article
+\bibitem[{Ghia et~al.(1982)Ghia, Ghia and Shin}]{ldc:ghia-1982}
+\bibinfo{author}{Ghia\xfnm[ U.]}, \bibinfo{author}{Ghia\xfnm[ K.N.]},
+  \bibinfo{author}{Shin\xfnm[ C.T.]}.
+\newblock \bibinfo{title}{{High-Re} solutions for incompressible flow using the
+  {Navier-Stokes} equations and a multigrid method}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{1982};\bibinfo{volume}{48}:\bibinfo{pages}{387--411}.
+%Type = Article
+\bibitem[{Koshizuka and Oka(1996)}]{koshizuka1996moving}
+\bibinfo{author}{Koshizuka\xfnm[ S.]}, \bibinfo{author}{Oka\xfnm[ Y.]}.
+\newblock \bibinfo{title}{Moving-particle semi-implicit method for
+  fragmentation of incompressible fluid}.
+\newblock \emph{\bibinfo{journal}{Nuclear science and engineering}}
+  \bibinfo{year}{1996};\bibinfo{volume}{123}(\bibinfo{number}{3}):\bibinfo{pages}{421--434}.
+%Type = Article
+\bibitem[{Landau et~al.(1960)Landau, Lifshitz, Sykes, Reid and
+  Dill}]{landau1960}
+\bibinfo{author}{Landau\xfnm[ L.D.]}, \bibinfo{author}{Lifshitz\xfnm[ E.M.]},
+  \bibinfo{author}{Sykes\xfnm[ J.B.]}, \bibinfo{author}{Reid\xfnm[ W.H.]},
+  \bibinfo{author}{Dill\xfnm[ E.H.]}.
+\newblock \bibinfo{title}{Theory of elasticity: Vol. 7 of course of theoretical
+  physics}.
+\newblock \emph{\bibinfo{journal}{Physics Today}}
+  \bibinfo{year}{1960};\bibinfo{volume}{13}(\bibinfo{number}{7}):\bibinfo{pages}{44--46}.
+\newblock \DOIprefix\doi{10.1063/1.3057037}.
+%Type = Article
+\bibitem[{Das and Cleary(2015)}]{das2015evaluation}
+\bibinfo{author}{Das\xfnm[ R.]}, \bibinfo{author}{Cleary\xfnm[ P.W.]}.
+\newblock \bibinfo{title}{Evaluation of accuracy and stability of the classical
+  sph method under uniaxial compression}.
+\newblock \emph{\bibinfo{journal}{Journal of Scientific Computing}}
+  \bibinfo{year}{2015};\bibinfo{volume}{64}(\bibinfo{number}{3}):\bibinfo{pages}{858--897}.
+%Type = Article
+\bibitem[{Swegle et~al.(1995)Swegle, Hicks and Attaway}]{swegle1995smoothed}
+\bibinfo{author}{Swegle\xfnm[ J.W.]}, \bibinfo{author}{Hicks\xfnm[ D.L.]},
+  \bibinfo{author}{Attaway\xfnm[ S.W.]}.
+\newblock \bibinfo{title}{Smoothed particle hydrodynamics stability analysis}.
+\newblock \emph{\bibinfo{journal}{Journal of computational physics}}
+  \bibinfo{year}{1995};\bibinfo{volume}{116}(\bibinfo{number}{1}):\bibinfo{pages}{123--134}.
+%Type = Article
+\bibitem[{Howell and Ball(2002)}]{howell2002free}
+\bibinfo{author}{Howell\xfnm[ B.]}, \bibinfo{author}{Ball\xfnm[ G.]}.
+\newblock \bibinfo{title}{A free-lagrange augmented {Godunov} method for the
+  simulation of elastic--plastic solids}.
+\newblock \emph{\bibinfo{journal}{Journal of Computational Physics}}
+  \bibinfo{year}{2002};\bibinfo{volume}{175}(\bibinfo{number}{1}):\bibinfo{pages}{128--167}.
+
+\end{thebibliography}

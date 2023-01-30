@@ -1,0 +1,616 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\emailauthor{adepu.dinesh.a@gmail.com}{Dinesh Adepu\corref {cor1}}
+\emailauthor{prabhu@aero.iitb.ac.in}{Prabhu Ramachandran}
+\citation{lucy77}
+\citation{monaghan-gingold-stars-mnras-77}
+\citation{monaghan-review:2005}
+\citation{sph:fsf:monaghan-jcp94,sph:psph:cummins-rudman:jcp:1999}
+\citation{randles-1996,gray-ed-2001}
+\citation{rafiee:fsi-2009,khayyer-fsi-2018,sun2021accurate,bui2008lagrangian}
+\Newlabel{cor1}{1}
+\Newlabel{IITB}{a}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}}
+\newlabel{sec:intro}{{1}{1}{Introduction}{section.1}{}}
+\newlabel{sec:intro@cref}{{[section][1][]1}{[1][1][]1}}
+\citation{acc_stab_xu:jcp:2009}
+\citation{diff_smoothing_sph:lind:jcp:2012,fickian_smoothing_sph:skillen:cmame:2013,huang_kernel_2019,ye2019sph}
+\citation{Adami2013}
+\citation{zhang_hu_adams17}
+\citation{oger_ale_sph_2016}
+\citation{sun_consistent_2019}
+\citation{edac-sph:cf:2019}
+\citation{Clausen2013}
+\citation{edac-sph:cf:2019}
+\citation{antuono2021delta}
+\citation{oger_ale_sph_2016}
+\citation{sun_consistent_2019}
+\citation{zhang_hu_adams17}
+\citation{oger_ale_sph_2016,sun_consistent_2019}
+\citation{sun_consistent_2019}
+\citation{huang_kernel_2019}
+\citation{gray-ed-2001}
+\citation{sugiura2017extension}
+\citation{dyka1995approach}
+\citation{belytschko2000unified}
+\citation{zhang_hu_adams17}
+\citation{PR:pysph:scipy16,pysph2020}
+\citation{pr:automan:2018}
+\citation{gray-ed-2001,zhang_hu_adams17}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Governing equations}{4}{section.2}}
+\newlabel{eq:ce}{{1}{4}{Governing equations}{equation.2.1}{}}
+\newlabel{eq:ce@cref}{{[equation][1][]1}{[1][4][]4}}
+\newlabel{eq:me}{{2}{4}{Governing equations}{equation.2.2}{}}
+\newlabel{eq:me@cref}{{[equation][2][]2}{[1][4][]4}}
+\newlabel{eq:stress_tensor_decomposition}{{3}{4}{Governing equations}{equation.2.3}{}}
+\newlabel{eq:stress_tensor_decomposition@cref}{{[equation][3][]3}{[1][4][]4}}
+\citation{Adami2013}
+\citation{oger_ale_sph_2016}
+\newlabel{eq:jaumann-stress-rate}{{4}{5}{Governing equations}{equation.2.4}{}}
+\newlabel{eq:jaumann-stress-rate@cref}{{[equation][4][]4}{[1][5][]5}}
+\newlabel{eq:strain-tensor}{{5}{5}{Governing equations}{equation.2.5}{}}
+\newlabel{eq:strain-tensor@cref}{{[equation][5][]5}{[1][5][]5}}
+\newlabel{eq:rotational-tensor}{{6}{5}{Governing equations}{equation.2.6}{}}
+\newlabel{eq:rotational-tensor@cref}{{[equation][6][]6}{[1][5][]5}}
+\newlabel{eq:fluid-stress-decomposition}{{7}{5}{Governing equations}{equation.2.7}{}}
+\newlabel{eq:fluid-stress-decomposition@cref}{{[equation][7][]7}{[1][5][]5}}
+\newlabel{eq:pressure-equation}{{8}{5}{Governing equations}{equation.2.8}{}}
+\newlabel{eq:pressure-equation@cref}{{[equation][8][]8}{[1][5][]5}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Numerical method}{5}{section.3}}
+\newlabel{eq:modified-material-derivative}{{9}{5}{Numerical method}{equation.3.9}{}}
+\newlabel{eq:modified-material-derivative@cref}{{[equation][9][]9}{[1][5][]5}}
+\citation{Adami2013}
+\newlabel{eq:ce-tvf-2}{{10}{6}{Numerical method}{equation.3.10}{}}
+\newlabel{eq:ce-tvf-2@cref}{{[equation][10][]10}{[1][5][]6}}
+\newlabel{eq:tmp:div-vv}{{11}{6}{Numerical method}{equation.3.11}{}}
+\newlabel{eq:tmp:div-vv@cref}{{[equation][11][]11}{[1][6][]6}}
+\newlabel{eq:ce-tvf}{{12}{6}{Numerical method}{equation.3.12}{}}
+\newlabel{eq:ce-tvf@cref}{{[equation][12][]12}{[1][6][]6}}
+\newlabel{eq:mom-eq-eulerian}{{13}{6}{Numerical method}{equation.3.13}{}}
+\newlabel{eq:mom-eq-eulerian@cref}{{[equation][13][]13}{[1][6][]6}}
+\newlabel{eq:tmp:mom1}{{14}{6}{Numerical method}{equation.3.14}{}}
+\newlabel{eq:tmp:mom1@cref}{{[equation][14][]14}{[1][6][]6}}
+\newlabel{eq:tmp:mom2}{{15}{6}{Numerical method}{equation.3.15}{}}
+\newlabel{eq:tmp:mom2@cref}{{[equation][15][]15}{[1][6][]6}}
+\newlabel{eq:tmp:mom3}{{16}{6}{Numerical method}{equation.3.16}{}}
+\newlabel{eq:tmp:mom3@cref}{{[equation][16][]16}{[1][6][]6}}
+\newlabel{eq:tmp:mom4}{{17}{6}{Numerical method}{equation.3.17}{}}
+\newlabel{eq:tmp:mom4@cref}{{[equation][17][]17}{[1][6][]6}}
+\citation{Adami2013}
+\citation{zhang_hu_adams17}
+\citation{edac-sph:cf:2019}
+\newlabel{eq:tmp:mom5}{{18}{7}{Numerical method}{equation.3.18}{}}
+\newlabel{eq:tmp:mom5@cref}{{[equation][18][]18}{[1][6][]7}}
+\newlabel{eq:mom-tvf}{{19}{7}{Numerical method}{equation.3.19}{}}
+\newlabel{eq:mom-tvf@cref}{{[equation][19][]19}{[1][7][]7}}
+\newlabel{eq:tvf-accel}{{20}{7}{Numerical method}{equation.3.20}{}}
+\newlabel{eq:tvf-accel@cref}{{[equation][20][]20}{[1][7][]7}}
+\newlabel{eq:modified-jaumann-stress-rate}{{21}{7}{Numerical method}{equation.3.21}{}}
+\newlabel{eq:modified-jaumann-stress-rate@cref}{{[equation][21][]21}{[1][7][]7}}
+\citation{antuono-deltasph:cpc:2010}
+\citation{edac-sph:cf:2019}
+\citation{PRKP:edac-sph-iccm2015}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}The EDAC-SPH method}{8}{subsection.3.1}}
+\newlabel{sec:edac-tvf}{{3.1}{8}{The EDAC-SPH method}{subsection.3.1}{}}
+\newlabel{sec:edac-tvf@cref}{{[subsection][1][3]3.1}{[1][7][]8}}
+\newlabel{eq:edac-p-evolve-orig}{{22}{8}{The EDAC-SPH method}{equation.3.22}{}}
+\newlabel{eq:edac-p-evolve-orig@cref}{{[equation][22][]22}{[1][8][]8}}
+\newlabel{eq:edac-p-evolve}{{23}{8}{The EDAC-SPH method}{equation.3.23}{}}
+\newlabel{eq:edac-p-evolve@cref}{{[equation][23][]23}{[1][8][]8}}
+\newlabel{eq:nu-edac}{{24}{8}{The EDAC-SPH method}{equation.3.24}{}}
+\newlabel{eq:nu-edac@cref}{{[equation][24][]24}{[1][8][]8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}SPH discretization}{8}{subsection.3.2}}
+\citation{morris1997modeling}
+\citation{monaghan-review:2005}
+\citation{zhang_hu_adams17}
+\newlabel{eq:sph-discretization-continuity}{{25}{9}{SPH discretization}{equation.3.25}{}}
+\newlabel{eq:sph-discretization-continuity@cref}{{[equation][25][]25}{[1][8][]9}}
+\newlabel{eq:sph-discretization-edac}{{26}{9}{SPH discretization}{equation.3.26}{}}
+\newlabel{eq:sph-discretization-edac@cref}{{[equation][26][]26}{[1][9][]9}}
+\newlabel{eq:sph-momentum-fluid}{{27}{9}{SPH discretization}{equation.3.27}{}}
+\newlabel{eq:sph-momentum-fluid@cref}{{[equation][27][]27}{[1][9][]9}}
+\newlabel{eq:mom-av}{{28}{9}{SPH discretization}{equation.3.28}{}}
+\newlabel{eq:mom-av@cref}{{[equation][28][]28}{[1][9][]9}}
+\newlabel{eq:av-phiij}{{29}{9}{SPH discretization}{equation.3.29}{}}
+\newlabel{eq:av-phiij@cref}{{[equation][29][]29}{[1][9][]9}}
+\newlabel{eq:sph-momentum-solid}{{30}{9}{SPH discretization}{equation.3.30}{}}
+\newlabel{eq:sph-momentum-solid@cref}{{[equation][30][]30}{[1][9][]9}}
+\citation{sun2017deltaplus}
+\citation{huang_kernel_2019}
+\citation{sun2017deltaplus}
+\citation{sun_consistent_2019}
+\newlabel{eq:sph-vel-grad}{{31}{10}{SPH discretization}{equation.3.31}{}}
+\newlabel{eq:sph-vel-grad@cref}{{[equation][31][]31}{[1][10][]10}}
+\newlabel{eq:sph-modified-jaumann-stress}{{32}{10}{SPH discretization}{equation.3.32}{}}
+\newlabel{eq:sph-modified-jaumann-stress@cref}{{[equation][32][]32}{[1][10][]10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Particle transport}{10}{subsection.3.3}}
+\newlabel{eq:transport_velocity_position_derivative}{{33}{10}{Particle transport}{equation.3.33}{}}
+\newlabel{eq:transport_velocity_position_derivative@cref}{{[equation][33][]33}{[1][10][]10}}
+\newlabel{eq:transport_velocity}{{34}{10}{Particle transport}{equation.3.34}{}}
+\newlabel{eq:transport_velocity@cref}{{[equation][34][]34}{[1][10][]10}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.1}Sun 2019 PST}{10}{subsubsection.3.3.1}}
+\newlabel{sec:sunpst}{{3.3.1}{10}{Sun 2019 PST}{subsubsection.3.3.1}{}}
+\newlabel{sec:sunpst@cref}{{[subsubsection][1][3,3]3.3.1}{[1][10][]10}}
+\citation{sun_consistent_2019}
+\citation{huang_kernel_2019}
+\citation{xu2009accuracy}
+\newlabel{eq:sun2019_pst}{{35}{11}{Sun 2019 PST}{equation.3.35}{}}
+\newlabel{eq:sun2019_pst@cref}{{[equation][35][]35}{[1][10][]11}}
+\newlabel{eq:sun2019_pst}{{36}{11}{Sun 2019 PST}{equation.3.36}{}}
+\newlabel{eq:sun2019_pst@cref}{{[equation][36][]36}{[1][11][]11}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.2}IPST}{11}{subsubsection.3.3.2}}
+\newlabel{sec:ipst}{{3.3.2}{11}{IPST}{subsubsection.3.3.2}{}}
+\newlabel{sec:ipst@cref}{{[subsubsection][2][3,3]3.3.2}{[1][11][]11}}
+\newlabel{eq:ipst_step1}{{37}{11}{IPST}{equation.3.37}{}}
+\newlabel{eq:ipst_step1@cref}{{[equation][37][]37}{[1][11][]11}}
+\newlabel{eq:ipst_step2}{{38}{11}{IPST}{equation.3.38}{}}
+\newlabel{eq:ipst_step2@cref}{{[equation][38][]38}{[1][11][]11}}
+\newlabel{eq:ipst_convergence_criterion}{{39}{11}{IPST}{equation.3.39}{}}
+\newlabel{eq:ipst_convergence_criterion@cref}{{[equation][39][]39}{[1][11][]11}}
+\newlabel{eq:ipst_chi_0}{{40}{11}{IPST}{equation.3.40}{}}
+\newlabel{eq:ipst_chi_0@cref}{{[equation][40][]40}{[1][11][]11}}
+\citation{Adami2013}
+\citation{diff_smoothing_sph:lind:jcp:2012}
+\citation{diff_smoothing_sph:lind:jcp:2012,oger_ale_sph_2016}
+\citation{sun_consistent_2019}
+\citation{zhang_hu_adams17}
+\citation{oger_ale_sph_2016}
+\citation{sun_consistent_2019}
+\citation{marrone:sph:level-set:2010}
+\citation{muta_efficient_2020}
+\newlabel{eq:ipst_force}{{41}{12}{IPST}{equation.3.41}{}}
+\newlabel{eq:ipst_force@cref}{{[equation][41][]41}{[1][12][]12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Free surface identification algorithm}{12}{subsection.3.4}}
+\newlabel{subsec:free-surface}{{3.4}{12}{Free surface identification algorithm}{subsection.3.4}{}}
+\newlabel{subsec:free-surface@cref}{{[subsection][4][3]3.4}{[1][12][]12}}
+\newlabel{eq:normal-approx}{{42}{12}{Free surface identification algorithm}{equation.3.42}{}}
+\newlabel{eq:normal-approx@cref}{{[equation][42][]42}{[1][12][]12}}
+\newlabel{eq:normal}{{43}{12}{Free surface identification algorithm}{equation.3.43}{}}
+\newlabel{eq:normal@cref}{{[equation][43][]43}{[1][12][]12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}PST close to the free surface}{13}{subsection.3.5}}
+\newlabel{sec:pst-free-surf}{{3.5}{13}{PST close to the free surface}{subsection.3.5}{}}
+\newlabel{sec:pst-free-surf@cref}{{[subsection][5][3]3.5}{[1][13][]13}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:free_surface_circle_normals}{{1a}{14}{\relax }{figure.caption.1}{}}
+\newlabel{fig:free_surface_circle_normals@cref}{{[subfigure][1][1]1a}{[1][13][]14}}
+\newlabel{sub@fig:free_surface_circle_normals}{{a}{14}{\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:free_surface_circle_normals@cref}{{[subfigure][1][1]1a}{[1][13][]14}}
+\newlabel{fig:free_surface_circle_boundary_particles}{{1b}{14}{\relax }{figure.caption.1}{}}
+\newlabel{fig:free_surface_circle_boundary_particles@cref}{{[subfigure][2][1]1b}{[1][13][]14}}
+\newlabel{sub@fig:free_surface_circle_boundary_particles}{{b}{14}{\relax }{figure.caption.1}{}}
+\newlabel{sub@fig:free_surface_circle_boundary_particles@cref}{{[subfigure][2][1]1b}{[1][13][]14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Identification of free surface particles of a circular ring of fluid. Depicts (a) normals of the fluid particles, (b) boundary particles of the fluid particles\relax }}{14}{figure.caption.1}}
+\newlabel{fig:boundary-particles-circle}{{1}{14}{Identification of free surface particles of a circular ring of fluid. Depicts (a) normals of the fluid particles, (b) boundary particles of the fluid particles\relax }{figure.caption.1}{}}
+\newlabel{fig:boundary-particles-circle@cref}{{[figure][1][]1}{[1][13][]14}}
+\newlabel{fig:boundary-particles-circle-wall-normals}{{2a}{14}{\relax }{figure.caption.2}{}}
+\newlabel{fig:boundary-particles-circle-wall-normals@cref}{{[subfigure][1][2]2a}{[1][13][]14}}
+\newlabel{sub@fig:boundary-particles-circle-wall-normals}{{a}{14}{\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:boundary-particles-circle-wall-normals@cref}{{[subfigure][1][2]2a}{[1][13][]14}}
+\newlabel{fig:boundary-particles-circle-wall-bp}{{2b}{14}{\relax }{figure.caption.2}{}}
+\newlabel{fig:boundary-particles-circle-wall-bp@cref}{{[subfigure][2][2]2b}{[1][13][]14}}
+\newlabel{sub@fig:boundary-particles-circle-wall-bp}{{b}{14}{\relax }{figure.caption.2}{}}
+\newlabel{sub@fig:boundary-particles-circle-wall-bp@cref}{{[subfigure][2][2]2b}{[1][13][]14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Identification of free surface particles of a fluid resting on a wall. Depicts (a) normals of the fluid particles, (b) boundary particles of the fluid particles\relax }}{14}{figure.caption.2}}
+\newlabel{fig:boundary-particles-circle-wall}{{2}{14}{Identification of free surface particles of a fluid resting on a wall. Depicts (a) normals of the fluid particles, (b) boundary particles of the fluid particles\relax }{figure.caption.2}{}}
+\newlabel{fig:boundary-particles-circle-wall@cref}{{[figure][2][]2}{[1][13][]14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Identification of normals of fluid in a dam break simulation. Shows us the normals of all the fluid particles\relax }}{15}{figure.caption.3}}
+\newlabel{fig:normals}{{3}{15}{Identification of normals of fluid in a dam break simulation. Shows us the normals of all the fluid particles\relax }{figure.caption.3}{}}
+\newlabel{fig:normals@cref}{{[figure][3][]3}{[1][13][]15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Identification of boundary particles of fluid at an instance in a dam break. Shows boundary particles of all the fluid particles\relax }}{16}{figure.caption.4}}
+\newlabel{fig:boundary-particles}{{4}{16}{Identification of boundary particles of fluid at an instance in a dam break. Shows boundary particles of all the fluid particles\relax }{figure.caption.4}{}}
+\newlabel{fig:boundary-particles@cref}{{[figure][4][]4}{[1][13][]16}}
+\citation{sun_consistent_2019}
+\citation{huang_kernel_2019}
+\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces Algorithm to set $h_b$\relax }}{17}{algorithm.1}}
+\newlabel{alg:hb}{{1}{17}{Algorithm to set $h_b$\relax }{algorithm.1}{}}
+\newlabel{alg:hb@cref}{{[algorithm][1][]1}{[1][17][]17}}
+\newlabel{fig:pst_free_surf}{{5a}{17}{\relax }{figure.caption.5}{}}
+\newlabel{fig:pst_free_surf@cref}{{[subfigure][1][5]5a}{[1][17][]17}}
+\newlabel{sub@fig:pst_free_surf}{{a}{17}{\relax }{figure.caption.5}{}}
+\newlabel{sub@fig:pst_free_surf@cref}{{[subfigure][1][5]5a}{[1][17][]17}}
+\newlabel{fig:pst_free_surf_zoomed}{{5b}{17}{\relax }{figure.caption.5}{}}
+\newlabel{fig:pst_free_surf_zoomed@cref}{{[subfigure][2][5]5b}{[1][17][]17}}
+\newlabel{sub@fig:pst_free_surf_zoomed}{{b}{17}{\relax }{figure.caption.5}{}}
+\newlabel{sub@fig:pst_free_surf_zoomed@cref}{{[subfigure][2][5]5b}{[1][17][]17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces  Set $h_b$ of the particles. (a) Particles with a free surface whose free particles are identified (b) Minimum distance between the particle in the vicinity of the free surface to the free surface particle.\relax }}{17}{figure.caption.5}}
+\newlabel{fig:pst_free_surf}{{5}{17}{Set $h_b$ of the particles. (a) Particles with a free surface whose free particles are identified (b) Minimum distance between the particle in the vicinity of the free surface to the free surface particle.\relax }{figure.caption.5}{}}
+\newlabel{fig:pst_free_surf@cref}{{[figure][5][]5}{[1][17][]17}}
+\newlabel{eq:shifting_force_free_surface_adjust_sun2019}{{44}{17}{PST close to the free surface}{equation.3.44}{}}
+\newlabel{eq:shifting_force_free_surface_adjust_sun2019@cref}{{[equation][44][]44}{[1][17][]17}}
+\citation{Adami2012}
+\newlabel{eq:shifting_force_free_surface_adjust_ipst}{{45}{18}{PST close to the free surface}{equation.3.45}{}}
+\newlabel{eq:shifting_force_free_surface_adjust_ipst@cref}{{[equation][45][]45}{[1][17][]18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.6}Boundary conditions}{18}{subsection.3.6}}
+\newlabel{eq:v-ghost}{{46}{18}{Boundary conditions}{equation.3.46}{}}
+\newlabel{eq:v-ghost@cref}{{[equation][46][]46}{[1][18][]18}}
+\newlabel{eq:v-hat-ghost}{{47}{18}{Boundary conditions}{equation.3.47}{}}
+\newlabel{eq:v-hat-ghost@cref}{{[equation][47][]47}{[1][18][]18}}
+\newlabel{eq:free-slip-bc-u}{{48}{18}{Boundary conditions}{equation.3.48}{}}
+\newlabel{eq:free-slip-bc-u@cref}{{[equation][48][]48}{[1][18][]18}}
+\newlabel{eq:free-slip-bc-u}{{49}{18}{Boundary conditions}{equation.3.49}{}}
+\newlabel{eq:free-slip-bc-u@cref}{{[equation][49][]49}{[1][18][]18}}
+\newlabel{eq:no-slip-bc-u}{{50}{18}{Boundary conditions}{equation.3.50}{}}
+\newlabel{eq:no-slip-bc-u@cref}{{[equation][50][]50}{[1][18][]18}}
+\newlabel{eq:no-slip-bc-uhat}{{51}{18}{Boundary conditions}{equation.3.51}{}}
+\newlabel{eq:no-slip-bc-uhat@cref}{{[equation][51][]51}{[1][18][]18}}
+\newlabel{eq:pressure-bc}{{52}{19}{Boundary conditions}{equation.3.52}{}}
+\newlabel{eq:pressure-bc@cref}{{[equation][52][]52}{[1][18][]19}}
+\newlabel{eq:shear-stress-bc}{{53}{19}{Boundary conditions}{equation.3.53}{}}
+\newlabel{eq:shear-stress-bc@cref}{{[equation][53][]53}{[1][19][]19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Time integration}{19}{subsection.3.7}}
+\newlabel{eq:velocity-update-stage-1}{{54}{19}{Time integration}{equation.3.54}{}}
+\newlabel{eq:velocity-update-stage-1@cref}{{[equation][54][]54}{[1][19][]19}}
+\newlabel{eq:velocity-hat-update-stage-1}{{55}{19}{Time integration}{equation.3.55}{}}
+\newlabel{eq:velocity-hat-update-stage-1@cref}{{[equation][55][]55}{[1][19][]19}}
+\newlabel{eq:density-update-stage-2}{{56}{19}{Time integration}{equation.3.56}{}}
+\newlabel{eq:density-update-stage-2@cref}{{[equation][56][]56}{[1][19][]19}}
+\newlabel{eq:pressure-update-stage-2}{{57}{19}{Time integration}{equation.3.57}{}}
+\newlabel{eq:pressure-update-stage-2@cref}{{[equation][57][]57}{[1][19][]19}}
+\newlabel{eq:stress-update-stage-2}{{58}{19}{Time integration}{equation.3.58}{}}
+\newlabel{eq:stress-update-stage-2@cref}{{[equation][58][]58}{[1][19][]19}}
+\newlabel{eq:position-update-stage-2}{{59}{19}{Time integration}{equation.3.59}{}}
+\newlabel{eq:position-update-stage-2@cref}{{[equation][59][]59}{[1][19][]19}}
+\citation{pr:automan:2018}
+\newlabel{eq:velocity-update-stage-3}{{60}{20}{Time integration}{equation.3.60}{}}
+\newlabel{eq:velocity-update-stage-3@cref}{{[equation][60][]60}{[1][19][]20}}
+\newlabel{eq:time-step-cfl}{{61}{20}{Time integration}{equation.3.61}{}}
+\newlabel{eq:time-step-cfl@cref}{{[equation][61][]61}{[1][20][]20}}
+\newlabel{eq:time-step-body-force}{{62}{20}{Time integration}{equation.3.62}{}}
+\newlabel{eq:time-step-body-force@cref}{{[equation][62][]62}{[1][20][]20}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{20}{section.4}}
+\newlabel{sec:results}{{4}{20}{Results}{section.4}{}}
+\newlabel{sec:results@cref}{{[section][4][]4}{[1][20][]20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Taylor-Green vortex}{20}{subsection.4.1}}
+\newlabel{sec:tgv}{{4.1}{20}{Taylor-Green vortex}{subsection.4.1}{}}
+\newlabel{sec:tgv@cref}{{[subsection][1][4]4.1}{[1][20][]20}}
+\newlabel{eq:tgv_sol}{{63}{20}{Taylor-Green vortex}{equation.4.63}{}}
+\newlabel{eq:tgv_sol@cref}{{[equation][63][]63}{[1][20][]20}}
+\newlabel{eq:tg:l1}{{66}{21}{Taylor-Green vortex}{equation.4.66}{}}
+\newlabel{eq:tg:l1@cref}{{[equation][66][]66}{[1][21][]21}}
+\newlabel{fig:tg_sun2019:tg_decay}{{6a}{22}{\relax }{figure.caption.6}{}}
+\newlabel{fig:tg_sun2019:tg_decay@cref}{{[subfigure][1][6]6a}{[1][21][]22}}
+\newlabel{sub@fig:tg_sun2019:tg_decay}{{a}{22}{\relax }{figure.caption.6}{}}
+\newlabel{sub@fig:tg_sun2019:tg_decay@cref}{{[subfigure][1][6]6a}{[1][21][]22}}
+\newlabel{fig:tg_sun2019:tg_l1}{{6b}{22}{\relax }{figure.caption.6}{}}
+\newlabel{fig:tg_sun2019:tg_l1@cref}{{[subfigure][2][6]6b}{[1][21][]22}}
+\newlabel{sub@fig:tg_sun2019:tg_l1}{{b}{22}{\relax }{figure.caption.6}{}}
+\newlabel{sub@fig:tg_sun2019:tg_l1@cref}{{[subfigure][2][6]6b}{[1][21][]22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 100 using SPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }}{22}{figure.caption.6}}
+\newlabel{fig:tg:sun2019}{{6}{22}{Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 100 using SPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }{figure.caption.6}{}}
+\newlabel{fig:tg:sun2019@cref}{{[figure][6][]6}{[1][21][]22}}
+\newlabel{fig:tg_ipst:tg_decay}{{7a}{22}{\relax }{figure.caption.7}{}}
+\newlabel{fig:tg_ipst:tg_decay@cref}{{[subfigure][1][7]7a}{[1][21][]22}}
+\newlabel{sub@fig:tg_ipst:tg_decay}{{a}{22}{\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:tg_ipst:tg_decay@cref}{{[subfigure][1][7]7a}{[1][21][]22}}
+\newlabel{fig:tg_ipst:tg_l1}{{7b}{22}{\relax }{figure.caption.7}{}}
+\newlabel{fig:tg_ipst:tg_l1@cref}{{[subfigure][2][7]7b}{[1][21][]22}}
+\newlabel{sub@fig:tg_ipst:tg_l1}{{b}{22}{\relax }{figure.caption.7}{}}
+\newlabel{sub@fig:tg_ipst:tg_l1@cref}{{[subfigure][2][7]7b}{[1][21][]22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 100 using IPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }}{22}{figure.caption.7}}
+\newlabel{fig:tg:ipst}{{7}{22}{Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 100 using IPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }{figure.caption.7}{}}
+\newlabel{fig:tg:ipst@cref}{{[figure][7][]7}{[1][21][]22}}
+\newlabel{fig:tg_re_1000_ipst:tg_decay}{{8a}{23}{\relax }{figure.caption.8}{}}
+\newlabel{fig:tg_re_1000_ipst:tg_decay@cref}{{[subfigure][1][8]8a}{[1][21][]23}}
+\newlabel{sub@fig:tg_re_1000_ipst:tg_decay}{{a}{23}{\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:tg_re_1000_ipst:tg_decay@cref}{{[subfigure][1][8]8a}{[1][21][]23}}
+\newlabel{fig:tg_re_1000_ipst:tg_l1}{{8b}{23}{\relax }{figure.caption.8}{}}
+\newlabel{fig:tg_re_1000_ipst:tg_l1@cref}{{[subfigure][2][8]8b}{[1][21][]23}}
+\newlabel{sub@fig:tg_re_1000_ipst:tg_l1}{{b}{23}{\relax }{figure.caption.8}{}}
+\newlabel{sub@fig:tg_re_1000_ipst:tg_l1@cref}{{[subfigure][2][8]8b}{[1][21][]23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 1000 using IPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }}{23}{figure.caption.8}}
+\newlabel{fig:tg_re_1000:ipst}{{8}{23}{Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 1000 using IPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }{figure.caption.8}{}}
+\newlabel{fig:tg_re_1000:ipst@cref}{{[figure][8][]8}{[1][21][]23}}
+\newlabel{fig:tg_re_1000:tg_decay}{{9a}{23}{\relax }{figure.caption.9}{}}
+\newlabel{fig:tg_re_1000:tg_decay@cref}{{[subfigure][1][9]9a}{[1][21][]23}}
+\newlabel{sub@fig:tg_re_1000:tg_decay}{{a}{23}{\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:tg_re_1000:tg_decay@cref}{{[subfigure][1][9]9a}{[1][21][]23}}
+\newlabel{fig:tg_re_1000:tg_l1}{{9b}{23}{\relax }{figure.caption.9}{}}
+\newlabel{fig:tg_re_1000:tg_l1@cref}{{[subfigure][2][9]9b}{[1][21][]23}}
+\newlabel{sub@fig:tg_re_1000:tg_l1}{{b}{23}{\relax }{figure.caption.9}{}}
+\newlabel{sub@fig:tg_re_1000:tg_l1@cref}{{[subfigure][2][9]9b}{[1][21][]23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 1000 using SPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }}{23}{figure.caption.9}}
+\newlabel{fig:tg_re_1000:sun2019}{{9}{23}{Taylor-Green vortices for an initial particle distribution of $50\times 50$, $100\times 100$ and $150\times 150$ is simulated with a Reynolds number of 1000 using SPST. Plots shown are (a) decay in maximum velocity (b) $L_1$ error in velocity magnitude.\relax }{figure.caption.9}{}}
+\newlabel{fig:tg_re_1000:sun2019@cref}{{[figure][9][]9}{[1][21][]23}}
+\newlabel{fig:tg_sun2019_correcions:tg_l1_re_100}{{10a}{24}{\relax }{figure.caption.10}{}}
+\newlabel{fig:tg_sun2019_correcions:tg_l1_re_100@cref}{{[subfigure][1][10]10a}{[1][21][]24}}
+\newlabel{sub@fig:tg_sun2019_correcions:tg_l1_re_100}{{a}{24}{\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:tg_sun2019_correcions:tg_l1_re_100@cref}{{[subfigure][1][10]10a}{[1][21][]24}}
+\newlabel{fig:tg_sun2019_correcions:tg_l1_re_1000}{{10b}{24}{\relax }{figure.caption.10}{}}
+\newlabel{fig:tg_sun2019_correcions:tg_l1_re_1000@cref}{{[subfigure][2][10]10b}{[1][21][]24}}
+\newlabel{sub@fig:tg_sun2019_correcions:tg_l1_re_1000}{{b}{24}{\relax }{figure.caption.10}{}}
+\newlabel{sub@fig:tg_sun2019_correcions:tg_l1_re_1000@cref}{{[subfigure][2][10]10b}{[1][21][]24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces $L_1$ error for nx with 150 $\times $ 150 with and without corrections with SPST with a Reynolds number of a) 100 and b) 1000\relax }}{24}{figure.caption.10}}
+\newlabel{fig:tg_sun2019_corrections:tg_l1}{{10}{24}{$L_1$ error for nx with 150 $\times $ 150 with and without corrections with SPST with a Reynolds number of a) 100 and b) 1000\relax }{figure.caption.10}{}}
+\newlabel{fig:tg_sun2019_corrections:tg_l1@cref}{{[figure][10][]10}{[1][21][]24}}
+\newlabel{fig:tg_ipst_correcions:tg_l1_re_100}{{11a}{24}{\relax }{figure.caption.11}{}}
+\newlabel{fig:tg_ipst_correcions:tg_l1_re_100@cref}{{[subfigure][1][11]11a}{[1][21][]24}}
+\newlabel{sub@fig:tg_ipst_correcions:tg_l1_re_100}{{a}{24}{\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:tg_ipst_correcions:tg_l1_re_100@cref}{{[subfigure][1][11]11a}{[1][21][]24}}
+\newlabel{fig:tg_ipst_correcions:tg_l1_re_1000}{{11b}{24}{\relax }{figure.caption.11}{}}
+\newlabel{fig:tg_ipst_correcions:tg_l1_re_1000@cref}{{[subfigure][2][11]11b}{[1][21][]24}}
+\newlabel{sub@fig:tg_ipst_correcions:tg_l1_re_1000}{{b}{24}{\relax }{figure.caption.11}{}}
+\newlabel{sub@fig:tg_ipst_correcions:tg_l1_re_1000@cref}{{[subfigure][2][11]11b}{[1][21][]24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces $L_1$ error for nx with 150 $\times $ 150 with and without corrections with IPST with a Reynolds number of a) 100 and b) 1000\relax }}{24}{figure.caption.11}}
+\newlabel{fig:tg_ipst_corrections:tg_l1}{{11}{24}{$L_1$ error for nx with 150 $\times $ 150 with and without corrections with IPST with a Reynolds number of a) 100 and b) 1000\relax }{figure.caption.11}{}}
+\newlabel{fig:tg_ipst_corrections:tg_l1@cref}{{[figure][11][]11}{[1][21][]24}}
+\citation{Adami2013}
+\citation{huang_kernel_2019}
+\citation{edac-sph:cf:2019}
+\citation{ldc:ghia-1982}
+\citation{ldc:ghia-1982}
+\citation{ldc:ghia-1982}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Particle plot of Taylor green vortices for a Reynolds number of 1000 with a resolution of $150\times 150$. The colors represent the pressure.\relax }}{25}{figure.caption.12}}
+\newlabel{fig:tg_re_1000:pplot}{{12}{25}{Particle plot of Taylor green vortices for a Reynolds number of 1000 with a resolution of $150\times 150$. The colors represent the pressure.\relax }{figure.caption.12}{}}
+\newlabel{fig:tg_re_1000:pplot@cref}{{[figure][12][]12}{[1][21][]25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Lid driven cavity}{25}{subsection.4.2}}
+\newlabel{sec:ldc}{{4.2}{25}{Lid driven cavity}{subsection.4.2}{}}
+\newlabel{sec:ldc@cref}{{[subsection][2][4]4.2}{[1][25][]25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces  Particle plot of cavity with a $Re=100$ with particle arrangement of $150 \times 150$, left side with corrections and right side without correction terms.\relax }}{26}{figure.caption.13}}
+\newlabel{fig:ldc:particle_plots_re100_compare}{{13}{26}{Particle plot of cavity with a $Re=100$ with particle arrangement of $150 \times 150$, left side with corrections and right side without correction terms.\relax }{figure.caption.13}{}}
+\newlabel{fig:ldc:particle_plots_re100_compare@cref}{{[figure][13][]13}{[1][25][]26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Velocity profiles $u$ vs.\ $y$ and $v$ vs.\ $x$ for the lid-driven-cavity problem at $Re=100$ with three initial particle arrangement of $50 \times 50$, $100 \times 100$, and $150 \times 150$.\relax }}{26}{figure.caption.14}}
+\newlabel{fig:ldc:uv_re100}{{14}{26}{Velocity profiles $u$ vs.\ $y$ and $v$ vs.\ $x$ for the lid-driven-cavity problem at $Re=100$ with three initial particle arrangement of $50 \times 50$, $100 \times 100$, and $150 \times 150$.\relax }{figure.caption.14}{}}
+\newlabel{fig:ldc:uv_re100@cref}{{[figure][14][]14}{[1][25][]26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Velocity profiles for the lid-driven-cavity using the steady state simulation procedure for $Re = 1000$ with initial partial arrangement of $50 \times 50$, $100 \times 100$, and $200 \times 200$ compared with the results of\nobreakspace  {}\cite  {ldc:ghia-1982}.\relax }}{27}{figure.caption.15}}
+\newlabel{fig:ldc:uv_re1000}{{15}{27}{Velocity profiles for the lid-driven-cavity using the steady state simulation procedure for $Re = 1000$ with initial partial arrangement of $50 \times 50$, $100 \times 100$, and $200 \times 200$ compared with the results of~\cite {ldc:ghia-1982}.\relax }{figure.caption.15}{}}
+\newlabel{fig:ldc:uv_re1000@cref}{{[figure][15][]15}{[1][25][]27}}
+\citation{muta_efficient_2020}
+\citation{zhang_hu_adams17}
+\citation{edac-sph:cf:2019}
+\citation{koshizuka1996moving}
+\citation{koshizuka1996moving}
+\citation{koshizuka1996moving}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}2D Dam-break}{28}{subsection.4.3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Position of the toe of the water versus time of CTVF as compared with the simulation of \nobreakspace  {}\cite  {koshizuka1996moving}. Z is the distance of toe of the dam from the left wall and L is the initial width of the dam\relax }}{28}{figure.caption.16}}
+\newlabel{fig:dam-break}{{16}{28}{Position of the toe of the water versus time of CTVF as compared with the simulation of ~\cite {koshizuka1996moving}. Z is the distance of toe of the dam from the left wall and L is the initial width of the dam\relax }{figure.caption.16}{}}
+\newlabel{fig:dam-break@cref}{{[figure][16][]16}{[1][28][]28}}
+\citation{Adami2013}
+\citation{landau1960}
+\citation{gray-ed-2001}
+\citation{zhang_hu_adams17}
+\citation{gray-ed-2001}
+\citation{zhang_hu_adams17}
+\citation{zhang_hu_adams17}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Particle plots of fluid in dam break at time $t=0.6, 1.1, 2.0$ second, showing velocity magnitude as contour.\relax }}{29}{figure.caption.17}}
+\newlabel{fig:dam-break-plots-vmag}{{17}{29}{Particle plots of fluid in dam break at time $t=0.6, 1.1, 2.0$ second, showing velocity magnitude as contour.\relax }{figure.caption.17}{}}
+\newlabel{fig:dam-break-plots-vmag@cref}{{[figure][17][]17}{[1][29][]29}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Oscillating plate}{29}{subsection.4.4}}
+\newlabel{sec:oscillating-plate}{{4.4}{29}{Oscillating plate}{subsection.4.4}{}}
+\newlabel{sec:oscillating-plate@cref}{{[subsection][4][4]4.4}{[1][29][]29}}
+\citation{gray-ed-2001,zhang_hu_adams17}
+\citation{gray-ed-2001,zhang_hu_adams17}
+\newlabel{fig:oscillating-plate:gtvf-sun2019-a}{{18a}{30}{\relax }{figure.caption.18}{}}
+\newlabel{fig:oscillating-plate:gtvf-sun2019-a@cref}{{[subfigure][1][18]18a}{[1][30][]30}}
+\newlabel{sub@fig:oscillating-plate:gtvf-sun2019-a}{{a}{30}{\relax }{figure.caption.18}{}}
+\newlabel{sub@fig:oscillating-plate:gtvf-sun2019-a@cref}{{[subfigure][1][18]18a}{[1][30][]30}}
+\newlabel{fig:oscillating-plate:gtvf-sun2019-b}{{18b}{30}{\relax }{figure.caption.18}{}}
+\newlabel{fig:oscillating-plate:gtvf-sun2019-b@cref}{{[subfigure][2][18]18b}{[1][30][]30}}
+\newlabel{sub@fig:oscillating-plate:gtvf-sun2019-b}{{b}{30}{\relax }{figure.caption.18}{}}
+\newlabel{sub@fig:oscillating-plate:gtvf-sun2019-b@cref}{{[subfigure][2][18]18b}{[1][30][]30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Oscillating plate with a length of $0.2$m and height of $0.02$m when simulated with GTVF Scheme. Figure in left is original GTVF scheme and right is while using SPST with GTVF scheme.\relax }}{30}{figure.caption.18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Oscillating plate at time $t=0.22$s with a length of $0.2$m and height of $0.02$m simulated with SPST with CTVF scheme.\relax }}{31}{figure.caption.19}}
+\newlabel{fig:oscillating-plate:etvf-sun2019-l-0-2-h-0-22}{{19}{31}{Oscillating plate at time $t=0.22$s with a length of $0.2$m and height of $0.02$m simulated with SPST with CTVF scheme.\relax }{figure.caption.19}{}}
+\newlabel{fig:oscillating-plate:etvf-sun2019-l-0-2-h-0-22@cref}{{[figure][19][]19}{[1][30][]31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Oscillating plate at time $t=0.51$s with a length of $0.2$m and height of $0.01$m simulated with SPST with CTVF scheme.\relax }}{31}{figure.caption.20}}
+\newlabel{fig:oscillating-plate:etvf-sun2019-l-0-2-h-0-01}{{20}{31}{Oscillating plate at time $t=0.51$s with a length of $0.2$m and height of $0.01$m simulated with SPST with CTVF scheme.\relax }{figure.caption.20}{}}
+\newlabel{fig:oscillating-plate:etvf-sun2019-l-0-2-h-0-01@cref}{{[figure][20][]20}{[1][30][]31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Oscillating plate at time $t=0.359$ seconds with a $V_f$ of $0.08$ m\tmspace  +\thinmuskip {.1667em}s\textsuperscript  {-1}, length of $0.4$m and height of $0.02$m simulated with IPST with CTVF scheme.\relax }}{32}{figure.caption.21}}
+\newlabel{fig:oscillating-plate:etvf-ipst-l-0-4-h-0-02}{{21}{32}{Oscillating plate at time $t=0.359$ seconds with a $V_f$ of $0.08$ m\,s\textsuperscript {-1}, length of $0.4$m and height of $0.02$m simulated with IPST with CTVF scheme.\relax }{figure.caption.21}{}}
+\newlabel{fig:oscillating-plate:etvf-ipst-l-0-4-h-0-02@cref}{{[figure][21][]21}{[1][30][]32}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparison between the CTVF and the analytical solution for the time period of the oscillating plate with a length of $0.2$m and height of $0.02$m with various $V_f$\relax }}{33}{table.caption.22}}
+\newlabel{table:compare-analytical-with-simulated-h-l-0-1}{{1}{33}{Comparison between the CTVF and the analytical solution for the time period of the oscillating plate with a length of $0.2$m and height of $0.02$m with various $V_f$\relax }{table.caption.22}{}}
+\newlabel{table:compare-analytical-with-simulated-h-l-0-1@cref}{{[table][1][]1}{[1][33][]33}}
+\citation{das2015evaluation}
+\citation{das2015evaluation}
+\@writefile{lof}{\contentsline {figure}{\numberline {22}{\ignorespaces The vertical position of the particle at the end of the plate as a function of time. Here we consider a three particle variations, 10, 20 and 30 particles across the plate width.\relax }}{34}{figure.caption.23}}
+\newlabel{fig:oscillating:ipst_convergence_plot}{{22}{34}{The vertical position of the particle at the end of the plate as a function of time. Here we consider a three particle variations, 10, 20 and 30 particles across the plate width.\relax }{figure.caption.23}{}}
+\newlabel{fig:oscillating:ipst_convergence_plot@cref}{{[figure][22][]22}{[1][33][]34}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Uniaxial compression}{34}{subsection.4.5}}
+\newlabel{sec:uniaxial-compression}{{4.5}{34}{Uniaxial compression}{subsection.4.5}{}}
+\newlabel{sec:uniaxial-compression@cref}{{[subsection][5][4]4.5}{[1][34][]34}}
+\citation{das2015evaluation}
+\citation{das2015evaluation}
+\citation{das2015evaluation}
+\citation{das2015evaluation}
+\@writefile{lof}{\contentsline {figure}{\numberline {23}{\ignorespaces Test configuration of sand stone under uniaxial compression.\relax }}{35}{figure.caption.24}}
+\newlabel{fig:uniaxial_test_configuration}{{23}{35}{Test configuration of sand stone under uniaxial compression.\relax }{figure.caption.24}{}}
+\newlabel{fig:uniaxial_test_configuration@cref}{{[figure][23][]23}{[1][34][]35}}
+\newlabel{eq:von_mises_with_principal_stress}{{68}{35}{Uniaxial compression}{equation.4.68}{}}
+\newlabel{eq:von_mises_with_principal_stress@cref}{{[equation][68][]68}{[1][35][]35}}
+\newlabel{eq:principal_stress}{{69}{35}{Uniaxial compression}{equation.4.69}{}}
+\newlabel{eq:principal_stress@cref}{{[subsection][5][4]4.5}{[1][35][]35}}
+\@writefile{lof}{\contentsline {figure}{\numberline {24}{\ignorespaces von Mises stress at point A in uniaxial compression with three different resolutions compared against those from \cite  {das2015evaluation}.\relax }}{36}{figure.caption.25}}
+\newlabel{fig:uniaxial}{{24}{36}{von Mises stress at point A in uniaxial compression with three different resolutions compared against those from \cite {das2015evaluation}.\relax }{figure.caption.25}{}}
+\newlabel{fig:uniaxial@cref}{{[figure][24][]24}{[1][35][]36}}
+\citation{swegle1995smoothed}
+\citation{gray-ed-2001}
+\citation{gray-ed-2001}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Colliding Rings}{37}{subsection.4.6}}
+\newlabel{colliding-rings}{{4.6}{37}{Colliding Rings}{subsection.4.6}{}}
+\newlabel{colliding-rings@cref}{{[subsection][6][4]4.6}{[1][37][]37}}
+\newlabel{fig:rings:sun2019-nu-0.3975-1}{{25a}{38}{t = 2.5e-03 sec\relax }{figure.caption.26}{}}
+\newlabel{fig:rings:sun2019-nu-0.3975-1@cref}{{[subfigure][1][25]25a}{[1][37][]38}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-1}{{a}{38}{t = 2.5e-03 sec\relax }{figure.caption.26}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-1@cref}{{[subfigure][1][25]25a}{[1][37][]38}}
+\newlabel{fig:rings:sun2019-nu-0.3975-2}{{25b}{38}{t = 4e-03 sec\relax }{figure.caption.26}{}}
+\newlabel{fig:rings:sun2019-nu-0.3975-2@cref}{{[subfigure][2][25]25b}{[1][37][]38}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-2}{{b}{38}{t = 4e-03 sec\relax }{figure.caption.26}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-2@cref}{{[subfigure][2][25]25b}{[1][37][]38}}
+\newlabel{fig:rings:sun2019-nu-0.3975-3}{{25c}{38}{t = 7.3e-03 sec\relax }{figure.caption.26}{}}
+\newlabel{fig:rings:sun2019-nu-0.3975-3@cref}{{[subfigure][3][25]25c}{[1][37][]38}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-3}{{c}{38}{t = 7.3e-03 sec\relax }{figure.caption.26}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-3@cref}{{[subfigure][3][25]25c}{[1][37][]38}}
+\newlabel{fig:rings:sun2019-nu-0.3975-4}{{25d}{38}{t = 1.45e-02 sec\relax }{figure.caption.26}{}}
+\newlabel{fig:rings:sun2019-nu-0.3975-4@cref}{{[subfigure][4][25]25d}{[1][37][]38}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-4}{{d}{38}{t = 1.45e-02 sec\relax }{figure.caption.26}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.3975-4@cref}{{[subfigure][4][25]25d}{[1][37][]38}}
+\@writefile{lof}{\contentsline {figure}{\numberline {25}{\ignorespaces Rings with a Poisson ratio of 0.3975 colliding head on, simulated with CTVF using SPST.\relax }}{38}{figure.caption.26}}
+\newlabel{fig:rings:sun2019-nu-0.3975}{{25}{38}{Rings with a Poisson ratio of 0.3975 colliding head on, simulated with CTVF using SPST.\relax }{figure.caption.26}{}}
+\newlabel{fig:rings:sun2019-nu-0.3975@cref}{{[figure][25][]25}{[1][37][]38}}
+\newlabel{fig:rings:sun2019-nu-0.47-1}{{26a}{39}{t = 2.5e-03 sec\relax }{figure.caption.27}{}}
+\newlabel{fig:rings:sun2019-nu-0.47-1@cref}{{[subfigure][1][26]26a}{[1][37][]39}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-1}{{a}{39}{t = 2.5e-03 sec\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-1@cref}{{[subfigure][1][26]26a}{[1][37][]39}}
+\newlabel{fig:rings:sun2019-nu-0.47-2}{{26b}{39}{t = 4e-03 sec\relax }{figure.caption.27}{}}
+\newlabel{fig:rings:sun2019-nu-0.47-2@cref}{{[subfigure][2][26]26b}{[1][37][]39}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-2}{{b}{39}{t = 4e-03 sec\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-2@cref}{{[subfigure][2][26]26b}{[1][37][]39}}
+\newlabel{fig:rings:sun2019-nu-0.47-3}{{26c}{39}{t = 7.3e-03 sec\relax }{figure.caption.27}{}}
+\newlabel{fig:rings:sun2019-nu-0.47-3@cref}{{[subfigure][3][26]26c}{[1][37][]39}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-3}{{c}{39}{t = 7.3e-03 sec\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-3@cref}{{[subfigure][3][26]26c}{[1][37][]39}}
+\newlabel{fig:rings:sun2019-nu-0.47-4}{{26d}{39}{t = 1.45e-02 sec\relax }{figure.caption.27}{}}
+\newlabel{fig:rings:sun2019-nu-0.47-4@cref}{{[subfigure][4][26]26d}{[1][37][]39}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-4}{{d}{39}{t = 1.45e-02 sec\relax }{figure.caption.27}{}}
+\newlabel{sub@fig:rings:sun2019-nu-0.47-4@cref}{{[subfigure][4][26]26d}{[1][37][]39}}
+\@writefile{lof}{\contentsline {figure}{\numberline {26}{\ignorespaces Rings with a Poisson ratio of 0.47 colliding head on, simulated with CTVF using SPST.\relax }}{39}{figure.caption.27}}
+\newlabel{fig:rings:sun2019-nu-0-47}{{26}{39}{Rings with a Poisson ratio of 0.47 colliding head on, simulated with CTVF using SPST.\relax }{figure.caption.27}{}}
+\newlabel{fig:rings:sun2019-nu-0-47@cref}{{[figure][26][]26}{[1][37][]39}}
+\newlabel{fig:rings:ipst-nu-0.47-1}{{27a}{40}{t = 2.5e-03 sec\relax }{figure.caption.28}{}}
+\newlabel{fig:rings:ipst-nu-0.47-1@cref}{{[subfigure][1][27]27a}{[1][37][]40}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-1}{{a}{40}{t = 2.5e-03 sec\relax }{figure.caption.28}{}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-1@cref}{{[subfigure][1][27]27a}{[1][37][]40}}
+\newlabel{fig:rings:ipst-nu-0.47-2}{{27b}{40}{t = 4e-03 sec\relax }{figure.caption.28}{}}
+\newlabel{fig:rings:ipst-nu-0.47-2@cref}{{[subfigure][2][27]27b}{[1][37][]40}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-2}{{b}{40}{t = 4e-03 sec\relax }{figure.caption.28}{}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-2@cref}{{[subfigure][2][27]27b}{[1][37][]40}}
+\newlabel{fig:rings:ipst-nu-0.47-3}{{27c}{40}{t = 7.3e-03 sec\relax }{figure.caption.28}{}}
+\newlabel{fig:rings:ipst-nu-0.47-3@cref}{{[subfigure][3][27]27c}{[1][37][]40}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-3}{{c}{40}{t = 7.3e-03 sec\relax }{figure.caption.28}{}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-3@cref}{{[subfigure][3][27]27c}{[1][37][]40}}
+\newlabel{fig:rings:ipst-nu-0.47-4}{{27d}{40}{t = 1.45e-02 sec\relax }{figure.caption.28}{}}
+\newlabel{fig:rings:ipst-nu-0.47-4@cref}{{[subfigure][4][27]27d}{[1][37][]40}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-4}{{d}{40}{t = 1.45e-02 sec\relax }{figure.caption.28}{}}
+\newlabel{sub@fig:rings:ipst-nu-0.47-4@cref}{{[subfigure][4][27]27d}{[1][37][]40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {27}{\ignorespaces Rings with a Poisson ratio of 0.47 colliding head on, simulated with CTVF using IPST.\relax }}{40}{figure.caption.28}}
+\newlabel{fig:rings:ipst-nu-0-47}{{27}{40}{Rings with a Poisson ratio of 0.47 colliding head on, simulated with CTVF using IPST.\relax }{figure.caption.28}{}}
+\newlabel{fig:rings:ipst-nu-0-47@cref}{{[figure][27][]27}{[1][37][]40}}
+\@writefile{lof}{\contentsline {figure}{\numberline {28}{\ignorespaces Schematic diagram of two rings colliding. Points A and B are marked.\relax }}{40}{figure.caption.29}}
+\newlabel{fig:rings_initial}{{28}{40}{Schematic diagram of two rings colliding. Points A and B are marked.\relax }{figure.caption.29}{}}
+\newlabel{fig:rings_initial@cref}{{[figure][28][]28}{[1][37][]40}}
+\citation{zhang_hu_adams17}
+\citation{sun_consistent_2019}
+\citation{zhang_hu_adams17}
+\citation{howell2002free}
+\citation{howell2002free}
+\citation{zhang_hu_adams17}
+\newlabel{fig:rings-compare-x}{{29a}{41}{$x$ coordinate of the point A\relax }{figure.caption.30}{}}
+\newlabel{fig:rings-compare-x@cref}{{[subfigure][1][29]29a}{[1][37][]41}}
+\newlabel{sub@fig:rings-compare-x}{{a}{41}{$x$ coordinate of the point A\relax }{figure.caption.30}{}}
+\newlabel{sub@fig:rings-compare-x@cref}{{[subfigure][1][29]29a}{[1][37][]41}}
+\newlabel{fig:rings-compare-y}{{29b}{41}{$y$ coordinate of the point A\relax }{figure.caption.30}{}}
+\newlabel{fig:rings-compare-y@cref}{{[subfigure][2][29]29b}{[1][37][]41}}
+\newlabel{sub@fig:rings-compare-y}{{b}{41}{$y$ coordinate of the point A\relax }{figure.caption.30}{}}
+\newlabel{sub@fig:rings-compare-y@cref}{{[subfigure][2][29]29b}{[1][37][]41}}
+\@writefile{lof}{\contentsline {figure}{\numberline {29}{\ignorespaces The evolution of the $x$ and $y$ coordinates of points A and B for the CTVF using SPST, IPST, and compared with that of Gray\nobreakspace  {}\cite  {gray-ed-2001}.\relax }}{41}{figure.caption.30}}
+\newlabel{fig:rings_compare}{{29}{41}{The evolution of the $x$ and $y$ coordinates of points A and B for the CTVF using SPST, IPST, and compared with that of Gray~\cite {gray-ed-2001}.\relax }{figure.caption.30}{}}
+\newlabel{fig:rings_compare@cref}{{[figure][29][]29}{[1][37][]41}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}High velocity impact}{41}{subsection.4.7}}
+\newlabel{}{{30a}{42}{t = 0 sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][1][30]30a}{[1][41][]42}}
+\newlabel{sub@}{{a}{42}{t = 0 sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][1][30]30a}{[1][41][]42}}
+\newlabel{}{{30b}{42}{t = $1 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][2][30]30b}{[1][41][]42}}
+\newlabel{sub@}{{b}{42}{t = $1 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][2][30]30b}{[1][41][]42}}
+\newlabel{}{{30c}{42}{t = $2 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][3][30]30c}{[1][41][]42}}
+\newlabel{sub@}{{c}{42}{t = $2 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][3][30]30c}{[1][41][]42}}
+\newlabel{}{{30d}{42}{t = $3 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][4][30]30d}{[1][41][]42}}
+\newlabel{sub@}{{d}{42}{t = $3 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][4][30]30d}{[1][41][]42}}
+\newlabel{}{{30e}{42}{t = $4 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][5][30]30e}{[1][41][]42}}
+\newlabel{sub@}{{e}{42}{t = $4 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][5][30]30e}{[1][41][]42}}
+\newlabel{}{{30f}{42}{t = $5 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][6][30]30f}{[1][41][]42}}
+\newlabel{sub@}{{f}{42}{t = $5 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][6][30]30f}{[1][41][]42}}
+\newlabel{}{{30g}{42}{t = $6 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][7][30]30g}{[1][41][]42}}
+\newlabel{sub@}{{g}{42}{t = $6 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][7][30]30g}{[1][41][]42}}
+\newlabel{}{{30h}{42}{t = $7 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][8][30]30h}{[1][41][]42}}
+\newlabel{sub@}{{h}{42}{t = $7 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][8][30]30h}{[1][41][]42}}
+\newlabel{}{{30i}{42}{t = $8 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{@cref}{{[subfigure][9][30]30i}{[1][41][]42}}
+\newlabel{sub@}{{i}{42}{t = $8 \times 10^{-6}$ sec\relax }{figure.caption.31}{}}
+\newlabel{sub@@cref}{{[subfigure][9][30]30i}{[1][41][]42}}
+\@writefile{lof}{\contentsline {figure}{\numberline {30}{\ignorespaces High velocity impact of cylinder on to a structure\relax }}{42}{figure.caption.31}}
+\newlabel{fig:hvi:etvf-sun2019}{{30}{42}{High velocity impact of cylinder on to a structure\relax }{figure.caption.31}{}}
+\newlabel{fig:hvi:etvf-sun2019@cref}{{[figure][30][]30}{[1][41][]42}}
+\citation{Adami2013}
+\citation{zhang_hu_adams17}
+\citation{edac-sph:cf:2019}
+\citation{sun_consistent_2019}
+\citation{huang_kernel_2019}
+\citation{zhang_hu_adams17}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion and conclusions}{43}{section.5}}
+\citation{edac-sph:cf:2019}
+\bibstyle{model6-num-names}
+\bibdata{references}
+\bibcite{lucy77}{{1}{1977}{{Lucy}}{{}}}
+\bibcite{monaghan-gingold-stars-mnras-77}{{2}{1977}{{Gingold and Monaghan}}{{}}}
+\bibcite{monaghan-review:2005}{{3}{2005}{{Monaghan}}{{}}}
+\bibcite{sph:fsf:monaghan-jcp94}{{4}{1994}{{Monaghan}}{{}}}
+\bibcite{sph:psph:cummins-rudman:jcp:1999}{{5}{1999}{{Cummins and Rudman}}{{}}}
+\bibcite{randles-1996}{{6}{1996}{{Randles and Libersky}}{{}}}
+\bibcite{gray-ed-2001}{{7}{2001}{{Gray et~al.}}{{Gray, Monaghan and Swift}}}
+\bibcite{rafiee:fsi-2009}{{8}{2009}{{Rafiee and Thiagarajan}}{{}}}
+\bibcite{khayyer-fsi-2018}{{9}{2018}{{Khayyer et~al.}}{{Khayyer, Gotoh, Falahaty and Shimi~zu}}}
+\bibcite{sun2021accurate}{{10}{2021}{{Sun et~al.}}{{Sun, Le~Touz{\'e}, Oger and Zhang}}}
+\bibcite{bui2008lagrangian}{{11}{2008}{{Bui et~al.}}{{Bui, Fukagawa, Sako and Ohno}}}
+\bibcite{acc_stab_xu:jcp:2009}{{12}{2009{}}{{Xu et~al.}}{{Xu, Stansby and Laurence}}}
+\bibcite{diff_smoothing_sph:lind:jcp:2012}{{13}{2012}{{Lind et~al.}}{{Lind, Xu, Stansby and Rogers}}}
+\bibcite{fickian_smoothing_sph:skillen:cmame:2013}{{14}{2013}{{Skillen et~al.}}{{Skillen, Lind, Stansby and Rogers}}}
+\bibcite{huang_kernel_2019}{{15}{2019}{{Huang et~al.}}{{Huang, Long, Li and Liu}}}
+\bibcite{ye2019sph}{{16}{2019}{{Ye et~al.}}{{Ye, Pan, Huang and Liu}}}
+\bibcite{Adami2013}{{17}{2013}{{Adami et~al.}}{{Adami, Hu and Adams}}}
+\bibcite{zhang_hu_adams17}{{18}{2017}{{Zhang et~al.}}{{Zhang, Hu and Adams}}}
+\bibcite{oger_ale_sph_2016}{{19}{2016}{{Oger et~al.}}{{Oger, Marrone, Le~Touz\IeC {\'e} and de~Leffe}}}
+\bibcite{sun_consistent_2019}{{20}{2019}{{Sun et~al.}}{{Sun, Colagrossi, Marrone, Antuono and Zhang}}}
+\bibcite{edac-sph:cf:2019}{{21}{2019}{{Ramachandran and Puri}}{{}}}
+\bibcite{Clausen2013}{{22}{2013}{{Clausen}}{{}}}
+\bibcite{antuono2021delta}{{23}{2021}{{Antuono et~al.}}{{Antuono, Sun, Marrone and Colagrossi}}}
+\bibcite{sugiura2017extension}{{24}{2017}{{Sugiura and Inutsuka}}{{}}}
+\bibcite{dyka1995approach}{{25}{1995}{{Dyka and Ingel}}{{}}}
+\bibcite{belytschko2000unified}{{26}{2000}{{Belytschko et~al.}}{{Belytschko, Guo, Kam~Liu and Ping~Xiao}}}
+\bibcite{PR:pysph:scipy16}{{27}{2016}{{Ramachandran}}{{}}}
+\bibcite{pysph2020}{{28}{2020}{{Ramachandran et~al.}}{{Ramachandran, Bhosale, Puri, Negi, Muta, Adepu, Menon, Govind, Sanka, Sebastian, Sen, Kaushik, Kumar, Kurapati, Patil, Tavker, Pandey, Kaushik, Dutt and Agarwal}}}
+\bibcite{pr:automan:2018}{{29}{2018}{{Ramachandran}}{{}}}
+\bibcite{antuono-deltasph:cpc:2010}{{30}{2010}{{Antuono et~al.}}{{Antuono, Colagrossi, Marrone and Molteni}}}
+\bibcite{PRKP:edac-sph-iccm2015}{{31}{2015}{{Ramachandran and Puri}}{{}}}
+\bibcite{morris1997modeling}{{32}{1997}{{Morris et~al.}}{{Morris, Fox and Zhu}}}
+\bibcite{sun2017deltaplus}{{33}{2017}{{Sun et~al.}}{{Sun, Colagrossi, Marrone and Zhang}}}
+\bibcite{xu2009accuracy}{{34}{2009{}}{{Xu et~al.}}{{Xu, Stansby and Laurence}}}
+\bibcite{marrone:sph:level-set:2010}{{35}{2010}{{Marrone et~al.}}{{Marrone, Colagrossi, Le~Touz\IeC {\'e} and Graziani}}}
+\bibcite{muta_efficient_2020}{{36}{2020}{{Muta et~al.}}{{Muta, Ramachandran and Negi}}}
+\bibcite{Adami2012}{{37}{2012}{{Adami et~al.}}{{Adami, Hu and Adams}}}
+\bibcite{ldc:ghia-1982}{{38}{1982}{{Ghia et~al.}}{{Ghia, Ghia and Shin}}}
+\bibcite{koshizuka1996moving}{{39}{1996}{{Koshizuka and Oka}}{{}}}
+\bibcite{landau1960}{{40}{1960}{{Landau et~al.}}{{Landau, Lifshitz, Sykes, Reid and Dill}}}
+\bibcite{das2015evaluation}{{41}{2015}{{Das and Cleary}}{{}}}
+\bibcite{swegle1995smoothed}{{42}{1995}{{Swegle et~al.}}{{Swegle, Hicks and Attaway}}}
+\bibcite{howell2002free}{{43}{2002}{{Howell and Ball}}{{}}}
