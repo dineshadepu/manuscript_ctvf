@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.22)  30 JAN 2023 11:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.3.22)  15 MAR 2023 18:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1220,391 +1220,372 @@ ous force is added:
  []
 
 [5] [6] [7] [8] [9] [10] [11] [12]
-<f0_circle_geometry_normals.png, id=334, 301.8477pt x 288.8391pt>
-File: f0_circle_geometry_normals.png Graphic file (type png)
-<use f0_circle_geometry_normals.png>
-Package pdftex.def Info: f0_circle_geometry_normals.png  used on input line 744
-.
+<fig_1_a.png, id=334, 301.8477pt x 288.8391pt>
+File: fig_1_a.png Graphic file (type png)
+<use fig_1_a.png>
+Package pdftex.def Info: fig_1_a.png  used on input line 745.
 (pdftex.def)             Requested size: 187.19833pt x 179.13127pt.
-<f0_circle_geometry.png, id=336, 301.6068pt x 288.8391pt>
-File: f0_circle_geometry.png Graphic file (type png)
-<use f0_circle_geometry.png>
-Package pdftex.def Info: f0_circle_geometry.png  used on input line 751.
+<fig_1_b.png, id=336, 301.6068pt x 288.8391pt>
+File: fig_1_b.png Graphic file (type png)
+<use fig_1_b.png>
+Package pdftex.def Info: fig_1_b.png  used on input line 753.
 (pdftex.def)             Requested size: 187.19833pt x 179.2767pt.
-<f0_circle_with_boundary_normals.png, id=337, 399.1713pt x 155.3805pt>
-File: f0_circle_with_boundary_normals.png Graphic file (type png)
-<use f0_circle_with_boundary_normals.png>
-Package pdftex.def Info: f0_circle_with_boundary_normals.png  used on input lin
-e 767.
+<fig_2_a.png, id=337, 399.1713pt x 155.3805pt>
+File: fig_2_a.png Graphic file (type png)
+<use fig_2_a.png>
+Package pdftex.def Info: fig_2_a.png  used on input line 770.
 (pdftex.def)             Requested size: 187.19833pt x 72.86998pt.
-<f0_circle_with_boundary.png, id=338, 399.1713pt x 155.3805pt>
-File: f0_circle_with_boundary.png Graphic file (type png)
-<use f0_circle_with_boundary.png>
-Package pdftex.def Info: f0_circle_with_boundary.png  used on input line 774.
+<fig_2_b.png, id=338, 399.1713pt x 155.3805pt>
+File: fig_2_b.png Graphic file (type png)
+<use fig_2_b.png>
+Package pdftex.def Info: fig_2_b.png  used on input line 778.
 (pdftex.def)             Requested size: 187.19833pt x 72.86998pt.
-<f0_normals_dam_break_final_zoomed.png, id=339, 338.7054pt x 288.8391pt>
-File: f0_normals_dam_break_final_zoomed.png Graphic file (type png)
-<use f0_normals_dam_break_final_zoomed.png>
-Package pdftex.def Info: f0_normals_dam_break_final_zoomed.png  used on input l
-ine 789.
+<fig_3.png, id=339, 338.7054pt x 288.8391pt>
+File: fig_3.png Graphic file (type png)
+<use fig_3.png>
+Package pdftex.def Info: fig_3.png  used on input line 794.
 (pdftex.def)             Requested size: 390.0pt x 332.59428pt.
-<f0_boundary_particles_final_zoomed.png, id=340, 338.4645pt x 288.8391pt>
-File: f0_boundary_particles_final_zoomed.png Graphic file (type png)
-<use f0_boundary_particles_final_zoomed.png>
-Package pdftex.def Info: f0_boundary_particles_final_zoomed.png  used on input 
-line 798.
+<fig_4.png, id=340, 338.4645pt x 288.8391pt>
+File: fig_4.png Graphic file (type png)
+<use fig_4.png>
+Package pdftex.def Info: fig_4.png  used on input line 804.
 (pdftex.def)             Requested size: 390.0pt x 332.8411pt.
- [13] [14 <./f0_circle_geometry_normals.png> <./f0_circle_geometry.png> <./f0_c
-ircle_with_boundary_normals.png> <./f0_circle_with_boundary.png>] [15 <./f0_nor
-mals_dam_break_final_zoomed.png>] [16 <./f0_boundary_particles_final_zoomed.png
->]
+ [13] [14 <./fig_1_a.png> <./fig_1_b.png> <./fig_2_a.png> <./fig_2_b.png>] [15 
+<./fig_3.png>] [16 <./fig_4.png>]
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 830.
-<im0.png, id=371, 361.8318pt x 405.4347pt>
-File: im0.png Graphic file (type png)
-<use im0.png>
-Package pdftex.def Info: im0.png  used on input line 856.
+put line 836.
+<fig_5_a.png, id=371, 361.8318pt x 405.4347pt>
+File: fig_5_a.png Graphic file (type png)
+<use fig_5_a.png>
+Package pdftex.def Info: fig_5_a.png  used on input line 863.
 (pdftex.def)             Requested size: 117.00119pt x 131.09657pt.
-<im0_zoomed.png, id=372, 176.8206pt x 162.1257pt>
-File: im0_zoomed.png Graphic file (type png)
-<use im0_zoomed.png>
-Package pdftex.def Info: im0_zoomed.png  used on input line 863.
+<fig_5_b.png, id=372, 176.8206pt x 162.1257pt>
+File: fig_5_b.png Graphic file (type png)
+<use fig_5_b.png>
+Package pdftex.def Info: fig_5_b.png  used on input line 871.
 (pdftex.def)             Requested size: 39.00238pt x 35.76176pt.
- [17 <./im0.png> <./im0_zoomed.png>]
-[18] [19] [20]
-<ft1_decay.pdf, id=437, 419.2739pt x 296.94011pt>
-File: ft1_decay.pdf Graphic file (type pdf)
-<use ft1_decay.pdf>
-Package pdftex.def Info: ft1_decay.pdf  used on input line 1113.
+ [17 <./fig_5_a.png> <./fig_5_b.png>] [18] [19] [20]
+<fig_6_a.pdf, id=437, 419.2739pt x 296.94011pt>
+File: fig_6_a.pdf Graphic file (type pdf)
+<use fig_6_a.pdf>
+Package pdftex.def Info: fig_6_a.pdf  used on input line 1122.
 (pdftex.def)             Requested size: 187.19833pt x 132.5797pt.
-<ft1_l1.pdf, id=438, 408.1605pt x 296.94011pt>
-File: ft1_l1.pdf Graphic file (type pdf)
-<use ft1_l1.pdf>
-Package pdftex.def Info: ft1_l1.pdf  used on input line 1120.
+<fig_6_b.pdf, id=438, 408.1605pt x 296.94011pt>
+File: fig_6_b.pdf Graphic file (type pdf)
+<use fig_6_b.pdf>
+Package pdftex.def Info: fig_6_b.pdf  used on input line 1130.
 (pdftex.def)             Requested size: 187.19833pt x 136.18631pt.
-<ft1_decay_ipst.pdf, id=439, 419.2739pt x 296.94011pt>
-File: ft1_decay_ipst.pdf Graphic file (type pdf)
-<use ft1_decay_ipst.pdf>
-Package pdftex.def Info: ft1_decay_ipst.pdf  used on input line 1137.
+<fig_7_a.pdf, id=439, 419.2739pt x 296.94011pt>
+File: fig_7_a.pdf Graphic file (type pdf)
+<use fig_7_a.pdf>
+Package pdftex.def Info: fig_7_a.pdf  used on input line 1148.
 (pdftex.def)             Requested size: 187.19833pt x 132.5797pt.
-<ft1_l1_ipst.pdf, id=440, 408.1605pt x 296.94011pt>
-File: ft1_l1_ipst.pdf Graphic file (type pdf)
-<use ft1_l1_ipst.pdf>
-Package pdftex.def Info: ft1_l1_ipst.pdf  used on input line 1144.
+<fig_7_b.pdf, id=440, 408.1605pt x 296.94011pt>
+File: fig_7_b.pdf Graphic file (type pdf)
+<use fig_7_b.pdf>
+Package pdftex.def Info: fig_7_b.pdf  used on input line 1156.
 (pdftex.def)             Requested size: 187.19833pt x 136.18631pt.
-<f01_1000_tg_decay_ipst.pdf, id=441, 435.3339pt x 296.94011pt>
-File: f01_1000_tg_decay_ipst.pdf Graphic file (type pdf)
-<use f01_1000_tg_decay_ipst.pdf>
-Package pdftex.def Info: f01_1000_tg_decay_ipst.pdf  used on input line 1160.
+<fig_8_a.pdf, id=441, 435.3339pt x 296.94011pt>
+File: fig_8_a.pdf Graphic file (type pdf)
+<use fig_8_a.pdf>
+Package pdftex.def Info: fig_8_a.pdf  used on input line 1173.
 (pdftex.def)             Requested size: 187.19833pt x 127.68628pt.
-<f01_1000_tg_l1_ipst.pdf, id=442, 408.1605pt x 296.94011pt>
-File: f01_1000_tg_l1_ipst.pdf Graphic file (type pdf)
-<use f01_1000_tg_l1_ipst.pdf>
-Package pdftex.def Info: f01_1000_tg_l1_ipst.pdf  used on input line 1167.
+<fig_8_b.pdf, id=442, 408.1605pt x 296.94011pt>
+File: fig_8_b.pdf Graphic file (type pdf)
+<use fig_8_b.pdf>
+Package pdftex.def Info: fig_8_b.pdf  used on input line 1181.
 (pdftex.def)             Requested size: 187.19833pt x 136.18631pt.
-<f01_1000_tg_decay.pdf, id=443, 419.2739pt x 296.94011pt>
-File: f01_1000_tg_decay.pdf Graphic file (type pdf)
-<use f01_1000_tg_decay.pdf>
-Package pdftex.def Info: f01_1000_tg_decay.pdf  used on input line 1184.
+<fig_9_a.pdf, id=443, 419.2739pt x 296.94011pt>
+File: fig_9_a.pdf Graphic file (type pdf)
+<use fig_9_a.pdf>
+Package pdftex.def Info: fig_9_a.pdf  used on input line 1199.
 (pdftex.def)             Requested size: 187.19833pt x 132.5797pt.
-<f01_1000_tg_l1.pdf, id=444, 401.46361pt x 296.94011pt>
-File: f01_1000_tg_l1.pdf Graphic file (type pdf)
-<use f01_1000_tg_l1.pdf>
-Package pdftex.def Info: f01_1000_tg_l1.pdf  used on input line 1191.
+<fig_9_b.pdf, id=444, 401.46361pt x 296.94011pt>
+File: fig_9_b.pdf Graphic file (type pdf)
+<use fig_9_b.pdf>
+Package pdftex.def Info: fig_9_b.pdf  used on input line 1207.
 (pdftex.def)             Requested size: 187.19833pt x 138.46085pt.
-<fs1_tg_l1_re_100.pdf, id=445, 413.53998pt x 297.97523pt>
-File: fs1_tg_l1_re_100.pdf Graphic file (type pdf)
-<use fs1_tg_l1_re_100.pdf>
-Package pdftex.def Info: fs1_tg_l1_re_100.pdf  used on input line 1209.
+<fig_10_a.pdf, id=445, 413.53998pt x 297.97523pt>
+File: fig_10_a.pdf Graphic file (type pdf)
+<use fig_10_a.pdf>
+Package pdftex.def Info: fig_10_a.pdf  used on input line 1226.
 (pdftex.def)             Requested size: 187.19833pt x 134.88329pt.
-<fs1_tg_l1_re_1000.pdf, id=446, 413.53998pt x 297.97523pt>
-File: fs1_tg_l1_re_1000.pdf Graphic file (type pdf)
-<use fs1_tg_l1_re_1000.pdf>
-Package pdftex.def Info: fs1_tg_l1_re_1000.pdf  used on input line 1216.
+<fig_10_b.pdf, id=446, 413.53998pt x 297.97523pt>
+File: fig_10_b.pdf Graphic file (type pdf)
+<use fig_10_b.pdf>
+Package pdftex.def Info: fig_10_b.pdf  used on input line 1234.
 (pdftex.def)             Requested size: 187.19833pt x 134.88329pt.
-<fi1_tg_l1_re_100.pdf, id=447, 401.46361pt x 296.94011pt>
-File: fi1_tg_l1_re_100.pdf Graphic file (type pdf)
-<use fi1_tg_l1_re_100.pdf>
-Package pdftex.def Info: fi1_tg_l1_re_100.pdf  used on input line 1230.
+<fig_11_a.pdf, id=447, 401.46361pt x 296.94011pt>
+File: fig_11_a.pdf Graphic file (type pdf)
+<use fig_11_a.pdf>
+Package pdftex.def Info: fig_11_a.pdf  used on input line 1249.
 (pdftex.def)             Requested size: 187.19833pt x 138.46085pt.
-<fi1_tg_l1_re_1000.pdf, id=448, 408.1605pt x 300.11pt>
-File: fi1_tg_l1_re_1000.pdf Graphic file (type pdf)
-<use fi1_tg_l1_re_1000.pdf>
-Package pdftex.def Info: fi1_tg_l1_re_1000.pdf  used on input line 1237.
+<fig_11_b.pdf, id=448, 408.1605pt x 300.11pt>
+File: fig_11_b.pdf Graphic file (type pdf)
+<use fig_11_b.pdf>
+Package pdftex.def Info: fig_11_b.pdf  used on input line 1257.
 (pdftex.def)             Requested size: 187.19833pt x 137.64014pt.
-<f01_1000_tg_pplot_p_re_1000.pdf, id=453, 321.06482pt x 263.96962pt>
-File: f01_1000_tg_pplot_p_re_1000.pdf Graphic file (type pdf)
-<use f01_1000_tg_pplot_p_re_1000.pdf>
-Package pdftex.def Info: f01_1000_tg_pplot_p_re_1000.pdf  used on input line 12
-56.
-(pdftex.def)             Requested size: 195.0pt x 160.32037pt.
- [21] [22 <./ft1_decay.pdf> <./ft1_l1.pdf
+<fig_12.pdf, id=453, 321.06482pt x 263.96962pt>
+File: fig_12.pdf Graphic file (type pdf)
+<use fig_12.pdf>
+Package pdftex.def Info: fig_12.pdf  used on input line 1277.
+(pdftex.def)             Requested size: 390.0pt x 320.64479pt.
+ [21] [22 <./fig_6_a.pdf> <./fig_6_b.pdf
 
-pdfTeX warning: pdflatex (file ./ft1_l1.pdf): PDF inclusion: multiple pdfs with
- page group included in a single page
-> <./ft1_decay_ipst.pdf
+pdfTeX warning: pdflatex (file ./fig_6_b.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./fig_7_a.pdf
 
-pdfTeX warning: pdflatex (file ./ft1_decay_ipst.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
-> <./ft1_l1_ipst.pdf
+pdfTeX warning: pdflatex (file ./fig_7_a.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./fig_7_b.pdf
 
-pdfTeX warning: pdflatex (file ./ft1_l1_ipst.pdf): PDF inclusion: multiple pdfs
- with page group included in a single page
->] [23 <./f01_1000_tg_decay_ipst.pdf> <./f01_1000_tg_l1_ipst.pdf
+pdfTeX warning: pdflatex (file ./fig_7_b.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] [23 <./fig_8_a.pdf> <./fig_8_b.pdf
 
-pdfTeX warning: pdflatex (file ./f01_1000_tg_l1_ipst.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
-> <./f01_1000_tg_decay.pdf
+pdfTeX warning: pdflatex (file ./fig_8_b.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./fig_9_a.pdf
 
-pdfTeX warning: pdflatex (file ./f01_1000_tg_decay.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./f01_1000_tg_l1.pdf
+pdfTeX warning: pdflatex (file ./fig_9_a.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./fig_9_b.pdf
 
-pdfTeX warning: pdflatex (file ./f01_1000_tg_l1.pdf): PDF inclusion: multiple p
-dfs with page group included in a single page
->] [24 <./fs1_tg_l1_re_100.pdf> <./fs1_tg_l1_re_1000.pdf
+pdfTeX warning: pdflatex (file ./fig_9_b.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+>] [24 <./fig_10_a.pdf> <./fig_10_b.pdf
 
-pdfTeX warning: pdflatex (file ./fs1_tg_l1_re_1000.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./fi1_tg_l1_re_100.pdf
+pdfTeX warning: pdflatex (file ./fig_10_b.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./fig_11_a.pdf
 
-pdfTeX warning: pdflatex (file ./fi1_tg_l1_re_100.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./fi1_tg_l1_re_1000.pdf
+pdfTeX warning: pdflatex (file ./fig_11_a.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./fig_11_b.pdf
 
-pdfTeX warning: pdflatex (file ./fi1_tg_l1_re_1000.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
->]
-<f2_good_vs_bad.pdf, id=943, 589.92067pt x 256.74261pt>
-File: f2_good_vs_bad.pdf Graphic file (type pdf)
-<use f2_good_vs_bad.pdf>
-Package pdftex.def Info: f2_good_vs_bad.pdf  used on input line 1284.
+pdfTeX warning: pdflatex (file ./fig_11_b.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>] [25 <./fig_12.pdf>]
+<fig_13.pdf, id=978, 589.92067pt x 256.74261pt>
+File: fig_13.pdf Graphic file (type pdf)
+<use fig_13.pdf>
+Package pdftex.def Info: fig_13.pdf  used on input line 1306.
 (pdftex.def)             Requested size: 390.0pt x 169.73663pt.
-<figures_cavity_uv_re100.pdf, id=945, 434.52025pt x 529.64066pt>
-File: figures_cavity_uv_re100.pdf Graphic file (type pdf)
-<use figures_cavity_uv_re100.pdf>
-Package pdftex.def Info: figures_cavity_uv_re100.pdf  used on input line 1299.
-(pdftex.def)             Requested size: 195.0pt x 237.68147pt.
-<figures_cavity_uv_re1000.pdf, id=946, 420.18817pt x 586.30922pt>
-File: figures_cavity_uv_re1000.pdf Graphic file (type pdf)
-<use figures_cavity_uv_re1000.pdf>
-Package pdftex.def Info: figures_cavity_uv_re1000.pdf  used on input line 1309.
+<fig_14.pdf, id=980, 434.52025pt x 529.64066pt>
+File: fig_14.pdf Graphic file (type pdf)
+<use fig_14.pdf>
+Package pdftex.def Info: fig_14.pdf  used on input line 1322.
+(pdftex.def)             Requested size: 390.0pt x 475.39528pt.
+<fig_15.pdf, id=981, 420.18817pt x 586.30922pt>
+File: fig_15.pdf Graphic file (type pdf)
+<use fig_15.pdf>
+Package pdftex.def Info: fig_15.pdf  used on input line 1333.
+(pdftex.def)             Requested size: 390.0pt x 544.22417pt.
 
-(pdftex.def)             Requested size: 195.0pt x 272.09418pt.
- [25 <./f01_1000_tg_pplot_p_re_1000.pdf>] [26 <./f2_good_vs_bad.pdf> <./figures
-_cavity_uv_re100.pdf
 
-pdfTeX warning: pdflatex (file ./figures_cavity_uv_re100.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->] [27 <./figures_cavity_uv_re1000.pdf>]
-<f3_x_vs_t.png, id=1131, 462.528pt x 346.896pt>
-File: f3_x_vs_t.png Graphic file (type png)
-<use f3_x_vs_t.png>
-Package pdftex.def Info: f3_x_vs_t.png  used on input line 1350.
-(pdftex.def)             Requested size: 312.00119pt x 234.01236pt.
- [28 <./f3_x_vs_t.png>]
-<figures_dam_break_2d_db2d_vmag.pdf, id=1147, 938.01228pt x 252.42178pt>
-File: figures_dam_break_2d_db2d_vmag.pdf Graphic file (type pdf)
-<use figures_dam_break_2d_db2d_vmag.pdf>
-Package pdftex.def Info: figures_dam_break_2d_db2d_vmag.pdf  used on input line
- 1371.
+LaTeX Warning: Float too large for page by 41.72417pt on input line 1339.
+
+[26 <./fig_13.pdf>] [27 <./fig_14.pdf>] [28 <./fig_15.pdf>]
+<fig_16.png, id=1136, 462.528pt x 346.896pt>
+File: fig_16.png Graphic file (type png)
+<use fig_16.png>
+Package pdftex.def Info: fig_16.png  used on input line 1374.
+(pdftex.def)             Requested size: 390.0pt x 292.5128pt.
+ [29 <./fig_16.png>]
+<fig_17.pdf, id=1151, 938.01228pt x 252.42178pt>
+File: fig_17.pdf Graphic file (type pdf)
+<use fig_17.pdf>
+Package pdftex.def Info: fig_17.pdf  used on input line 1396.
 (pdftex.def)             Requested size: 390.0pt x 104.94951pt.
- [29 <./figures_dam_break_2d_db2d_vmag.pdf>]
-<f4_gtvf_original.pdf, id=1221, 400.27174pt x 274.33693pt>
-File: f4_gtvf_original.pdf Graphic file (type pdf)
-<use f4_gtvf_original.pdf>
-Package pdftex.def Info: f4_gtvf_original.pdf  used on input line 1429.
-(pdftex.def)             Requested size: 149.75923pt x 102.64166pt.
-<f4_sun2019.pdf, id=1222, 393.57486pt x 274.33693pt>
-File: f4_sun2019.pdf Graphic file (type pdf)
-<use f4_sun2019.pdf>
-Package pdftex.def Info: f4_sun2019.pdf  used on input line 1436.
-(pdftex.def)             Requested size: 149.75923pt x 104.38724pt.
-<f5_l_0_2_h_0_02.pdf, id=1229, 400.61679pt x 276.30602pt>
-File: f5_l_0_2_h_0_02.pdf Graphic file (type pdf)
-<use f5_l_0_2_h_0_02.pdf>
-Package pdftex.def Info: f5_l_0_2_h_0_02.pdf  used on input line 1468.
-(pdftex.def)             Requested size: 312.00119pt x 215.1974pt.
-<f5_l_0_2_h_0_01.pdf, id=1230, 400.61679pt x 274.33693pt>
-File: f5_l_0_2_h_0_01.pdf Graphic file (type pdf)
-<use f5_l_0_2_h_0_01.pdf>
-Package pdftex.def Info: f5_l_0_2_h_0_01.pdf  used on input line 1477.
-(pdftex.def)             Requested size: 312.00119pt x 213.66379pt.
-<f6_ipst.pdf, id=1231, 322.31923pt x 289.0011pt>
-File: f6_ipst.pdf Graphic file (type pdf)
-<use f6_ipst.pdf>
-Package pdftex.def Info: f6_ipst.pdf  used on input line 1486.
-(pdftex.def)             Requested size: 312.00119pt x 279.75304pt.
- [30 <./f4_gtvf_original.pdf> <./f4_sun2019.pdf
+[30 <./fig_17.pdf>]
+<fig_18_a.pdf, id=1226, 400.27174pt x 274.33693pt>
+File: fig_18_a.pdf Graphic file (type pdf)
+<use fig_18_a.pdf>
+Package pdftex.def Info: fig_18_a.pdf  used on input line 1456.
+(pdftex.def)             Requested size: 187.19833pt x 128.30208pt.
+<fig_18_b.pdf, id=1227, 393.57486pt x 274.33693pt>
+File: fig_18_b.pdf Graphic file (type pdf)
+<use fig_18_b.pdf>
+Package pdftex.def Info: fig_18_b.pdf  used on input line 1464.
+(pdftex.def)             Requested size: 187.19833pt x 130.4872pt.
+<fig_19.pdf, id=1234, 400.61679pt x 276.30602pt>
+File: fig_19.pdf Graphic file (type pdf)
+<use fig_19.pdf>
+Package pdftex.def Info: fig_19.pdf  used on input line 1497.
+(pdftex.def)             Requested size: 390.0pt x 268.99464pt.
+<fig_20.pdf, id=1235, 400.61679pt x 274.33693pt>
+File: fig_20.pdf Graphic file (type pdf)
+<use fig_20.pdf>
+Package pdftex.def Info: fig_20.pdf  used on input line 1507.
+(pdftex.def)             Requested size: 390.0pt x 267.07764pt.
+<fig_21.pdf, id=1236, 322.31923pt x 289.0011pt>
+File: fig_21.pdf Graphic file (type pdf)
+<use fig_21.pdf>
+Package pdftex.def Info: fig_21.pdf  used on input line 1517.
+(pdftex.def)             Requested size: 390.0pt x 349.68799pt.
+ [31 <./fig_18_a.pdf> <./fig_18_b.pdf
 
-pdfTeX warning: pdflatex (file ./f4_sun2019.pdf): PDF inclusion: multiple pdfs 
-with page group included in a single page
->] [31 <./f5_l_0_2_h_0_02.pdf> <./f5_l_0_2_h_0_01.pdf
+pdfTeX warning: pdflatex (file ./fig_18_b.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>] [32 <./fig_19.pdf>] [33 <./fig_20.pdf>] [34 <./fig_21.pdf>]
+<fig_22.pdf, id=1368, 414.86996pt x 304.26123pt>
+File: fig_22.pdf Graphic file (type pdf)
+<use fig_22.pdf>
+Package pdftex.def Info: fig_22.pdf  used on input line 1559.
+(pdftex.def)             Requested size: 390.0pt x 286.03807pt.
+ [35 <./fig_22.pdf>]
+<fig_23.png, id=1411, 467.5869pt x 660.066pt>
+File: fig_23.png Graphic file (type png)
+<use fig_23.png>
+Package pdftex.def Info: fig_23.png  used on input line 1597.
+(pdftex.def)             Requested size: 390.0pt x 550.56395pt.
 
-pdfTeX warning: pdflatex (file ./f5_l_0_2_h_0_01.pdf): PDF inclusion: multiple 
-pdfs with page group included in a single page
->] [32 <./f6_ipst.pdf>]
-<figures_oscillating_plate_ipst_convergence_plot.pdf, id=1356, 414.86996pt x 30
-4.26123pt>
-File: figures_oscillating_plate_ipst_convergence_plot.pdf Graphic file (type pd
-f)
-<use figures_oscillating_plate_ipst_convergence_plot.pdf>
-Package pdftex.def Info: figures_oscillating_plate_ipst_convergence_plot.pdf  u
-sed on input line 1527.
-(pdftex.def)             Requested size: 272.99881pt x 200.2234pt.
- [33]
-<im1_uniaxial_compression.png, id=1366, 467.5869pt x 660.066pt>
-File: im1_uniaxial_compression.png Graphic file (type png)
-<use im1_uniaxial_compression.png>
-Package pdftex.def Info: im1_uniaxial_compression.png  used on input line 1564.
 
-(pdftex.def)             Requested size: 155.99762pt x 220.20946pt.
- [34 <./figures_oscillating_plate_ipst_convergence_plot.pdf>]
-<f7_von_mises_A.pdf, id=1408, 507.46465pt x 426.6866pt>
-File: f7_von_mises_A.pdf Graphic file (type pdf)
-<use f7_von_mises_A.pdf>
-Package pdftex.def Info: f7_von_mises_A.pdf  used on input line 1593.
-(pdftex.def)             Requested size: 312.00119pt x 262.34885pt.
- [35 <./im1_uniaxial_compression.png>] [36 <./f7_von_mises_A.pdf>]
-<f8_0_3975_time1.png, id=1492, 399.6531pt x 236.3229pt>
-File: f8_0_3975_time1.png Graphic file (type png)
-<use f8_0_3975_time1.png>
-Package pdftex.def Info: f8_0_3975_time1.png  used on input line 1653.
+LaTeX Warning: Float too large for page by 24.06395pt on input line 1600.
+
+<fig_24.pdf, id=1412, 507.46465pt x 426.6866pt>
+File: fig_24.pdf Graphic file (type pdf)
+<use fig_24.pdf>
+Package pdftex.def Info: fig_24.pdf  used on input line 1627.
+(pdftex.def)             Requested size: 390.0pt x 327.93117pt.
+[36] [37 <./fig_23.png>] [38 <./fig_24.pdf>]
+<fig_25_a.png, id=1503, 399.6531pt x 236.3229pt>
+File: fig_25_a.png Graphic file (type png)
+<use fig_25_a.png>
+Package pdftex.def Info: fig_25_a.png  used on input line 1688.
 (pdftex.def)             Requested size: 187.19833pt x 110.69675pt.
-<f8_0_3975_time2.png, id=1493, 399.6531pt x 236.3229pt>
-File: f8_0_3975_time2.png Graphic file (type png)
-<use f8_0_3975_time2.png>
-Package pdftex.def Info: f8_0_3975_time2.png  used on input line 1659.
+<fig_25_b.png, id=1504, 399.6531pt x 236.3229pt>
+File: fig_25_b.png Graphic file (type png)
+<use fig_25_b.png>
+Package pdftex.def Info: fig_25_b.png  used on input line 1695.
 (pdftex.def)             Requested size: 187.19833pt x 110.69675pt.
-<f8_0_3975_time3.png, id=1494, 399.6531pt x 236.3229pt>
-File: f8_0_3975_time3.png Graphic file (type png)
-<use f8_0_3975_time3.png>
-Package pdftex.def Info: f8_0_3975_time3.png  used on input line 1665.
+<fig_25_c.png, id=1505, 399.6531pt x 236.3229pt>
+File: fig_25_c.png Graphic file (type png)
+<use fig_25_c.png>
+Package pdftex.def Info: fig_25_c.png  used on input line 1702.
 (pdftex.def)             Requested size: 187.19833pt x 110.69675pt.
-<f8_0_3975_time4.png, id=1495, 399.6531pt x 236.3229pt>
-File: f8_0_3975_time4.png Graphic file (type png)
-<use f8_0_3975_time4.png>
-Package pdftex.def Info: f8_0_3975_time4.png  used on input line 1671.
+<fig_25_d.png, id=1506, 399.6531pt x 236.3229pt>
+File: fig_25_d.png Graphic file (type png)
+<use fig_25_d.png>
+Package pdftex.def Info: fig_25_d.png  used on input line 1709.
 (pdftex.def)             Requested size: 187.19833pt x 110.69675pt.
-<f8_0_47_time1.png, id=1496, 406.1574pt x 221.1462pt>
-File: f8_0_47_time1.png Graphic file (type png)
-<use f8_0_47_time1.png>
-Package pdftex.def Info: f8_0_47_time1.png  used on input line 1694.
+<fig_26_a.png, id=1507, 406.1574pt x 221.1462pt>
+File: fig_26_a.png Graphic file (type png)
+<use fig_26_a.png>
+Package pdftex.def Info: fig_26_a.png  used on input line 1733.
 (pdftex.def)             Requested size: 187.19833pt x 101.9242pt.
-<f8_0_47_time2.png, id=1497, 406.1574pt x 221.1462pt>
-File: f8_0_47_time2.png Graphic file (type png)
-<use f8_0_47_time2.png>
-Package pdftex.def Info: f8_0_47_time2.png  used on input line 1700.
+<fig_26_b.png, id=1508, 406.1574pt x 221.1462pt>
+File: fig_26_b.png Graphic file (type png)
+<use fig_26_b.png>
+Package pdftex.def Info: fig_26_b.png  used on input line 1740.
 (pdftex.def)             Requested size: 187.19833pt x 101.9242pt.
-<f8_0_47_time3.png, id=1498, 406.1574pt x 221.1462pt>
-File: f8_0_47_time3.png Graphic file (type png)
-<use f8_0_47_time3.png>
-Package pdftex.def Info: f8_0_47_time3.png  used on input line 1706.
+<fig_26_c.png, id=1509, 406.1574pt x 221.1462pt>
+File: fig_26_c.png Graphic file (type png)
+<use fig_26_c.png>
+Package pdftex.def Info: fig_26_c.png  used on input line 1747.
 (pdftex.def)             Requested size: 187.19833pt x 101.9242pt.
-<f8_0_47_time4.png, id=1499, 406.1574pt x 221.1462pt>
-File: f8_0_47_time4.png Graphic file (type png)
-<use f8_0_47_time4.png>
-Package pdftex.def Info: f8_0_47_time4.png  used on input line 1712.
+<fig_26_d.png, id=1510, 406.1574pt x 221.1462pt>
+File: fig_26_d.png Graphic file (type png)
+<use fig_26_d.png>
+Package pdftex.def Info: fig_26_d.png  used on input line 1754.
 (pdftex.def)             Requested size: 187.19833pt x 101.9242pt.
-<f9_0_47_time1.png, id=1500, 406.1574pt x 216.3282pt>
-File: f9_0_47_time1.png Graphic file (type png)
-<use f9_0_47_time1.png>
-Package pdftex.def Info: f9_0_47_time1.png  used on input line 1736.
+<fig_27_a.png, id=1511, 406.1574pt x 216.3282pt>
+File: fig_27_a.png Graphic file (type png)
+<use fig_27_a.png>
+Package pdftex.def Info: fig_27_a.png  used on input line 1779.
 (pdftex.def)             Requested size: 187.19833pt x 99.70363pt.
-<f9_0_47_time2.png, id=1501, 406.1574pt x 216.3282pt>
-File: f9_0_47_time2.png Graphic file (type png)
-<use f9_0_47_time2.png>
-Package pdftex.def Info: f9_0_47_time2.png  used on input line 1742.
+<fig_27_b.png, id=1512, 406.1574pt x 216.3282pt>
+File: fig_27_b.png Graphic file (type png)
+<use fig_27_b.png>
+Package pdftex.def Info: fig_27_b.png  used on input line 1786.
 (pdftex.def)             Requested size: 187.19833pt x 99.70363pt.
-<f9_0_47_time3.png, id=1502, 406.1574pt x 216.3282pt>
-File: f9_0_47_time3.png Graphic file (type png)
-<use f9_0_47_time3.png>
-Package pdftex.def Info: f9_0_47_time3.png  used on input line 1748.
+<fig_27_c.png, id=1513, 406.1574pt x 216.3282pt>
+File: fig_27_c.png Graphic file (type png)
+<use fig_27_c.png>
+Package pdftex.def Info: fig_27_c.png  used on input line 1793.
 (pdftex.def)             Requested size: 187.19833pt x 99.70363pt.
-<f9_0_47_time4.png, id=1503, 406.1574pt x 216.3282pt>
-File: f9_0_47_time4.png Graphic file (type png)
-<use f9_0_47_time4.png>
-Package pdftex.def Info: f9_0_47_time4.png  used on input line 1754.
+<fig_27_d.png, id=1514, 406.1574pt x 216.3282pt>
+File: fig_27_d.png Graphic file (type png)
+<use fig_27_d.png>
+Package pdftex.def Info: fig_27_d.png  used on input line 1800.
 (pdftex.def)             Requested size: 187.19833pt x 99.70363pt.
-<images_rings_rings_initial.png, id=1506, 545.1567pt x 255.354pt>
-File: images_rings_rings_initial.png Graphic file (type png)
-<use images_rings_rings_initial.png>
-Package pdftex.def Info: images_rings_rings_initial.png  used on input line 177
-8.
-(pdftex.def)             Requested size: 155.99762pt x 73.06886pt.
-<f10_a_b_0_3975_x.pdf, id=1507, 383.96574pt x 315.29669pt>
-File: f10_a_b_0_3975_x.pdf Graphic file (type pdf)
-<use f10_a_b_0_3975_x.pdf>
-Package pdftex.def Info: f10_a_b_0_3975_x.pdf  used on input line 1787.
+<fig_28.png, id=1517, 545.1567pt x 255.354pt>
+File: fig_28.png Graphic file (type png)
+<use fig_28.png>
+Package pdftex.def Info: fig_28.png  used on input line 1825.
+(pdftex.def)             Requested size: 390.0pt x 182.68582pt.
+<fig_29_a.pdf, id=1518, 383.96574pt x 315.29669pt>
+File: fig_29_a.pdf Graphic file (type pdf)
+<use fig_29_a.pdf>
+Package pdftex.def Info: fig_29_a.pdf  used on input line 1835.
 (pdftex.def)             Requested size: 187.19833pt x 153.72215pt.
-<f10_a_b_0_3975_y.pdf, id=1508, 383.96574pt x 319.61752pt>
-File: f10_a_b_0_3975_y.pdf Graphic file (type pdf)
-<use f10_a_b_0_3975_y.pdf>
-Package pdftex.def Info: f10_a_b_0_3975_y.pdf  used on input line 1793.
+<fig_29_b.pdf, id=1519, 383.96574pt x 319.61752pt>
+File: fig_29_b.pdf Graphic file (type pdf)
+<use fig_29_b.pdf>
+Package pdftex.def Info: fig_29_b.pdf  used on input line 1842.
 (pdftex.def)             Requested size: 187.19833pt x 155.82875pt.
+ [39] [40 <./fig_25_a.png> <./fig_25_b.png> <./fig_25_c.png> <./fig_25_d.png>] 
+[41 <./fig_26_a.png> <./fig_26_b.png> <./fig_26_c.png> <./fig_26_d.png>] [42 <.
+/fig_27_a.png> <./fig_27_b.png> <./fig_27_c.png> <./fig_27_d.png> <./fig_28.png
+>]
+<fig_30_a.png, id=1559, 462.528pt x 346.896pt>
+File: fig_30_a.png Graphic file (type png)
+<use fig_30_a.png>
+Package pdftex.def Info: fig_30_a.png  used on input line 1872.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_b.png, id=1560, 462.528pt x 346.896pt>
+File: fig_30_b.png Graphic file (type png)
+<use fig_30_b.png>
+Package pdftex.def Info: fig_30_b.png  used on input line 1879.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_c.png, id=1561, 462.528pt x 346.896pt>
+File: fig_30_c.png Graphic file (type png)
+<use fig_30_c.png>
+Package pdftex.def Info: fig_30_c.png  used on input line 1886.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_d.png, id=1562, 462.528pt x 346.896pt>
+File: fig_30_d.png Graphic file (type png)
+<use fig_30_d.png>
+Package pdftex.def Info: fig_30_d.png  used on input line 1893.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_e.png, id=1563, 462.528pt x 346.896pt>
+File: fig_30_e.png Graphic file (type png)
+<use fig_30_e.png>
+Package pdftex.def Info: fig_30_e.png  used on input line 1900.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_f.png, id=1564, 462.528pt x 346.896pt>
+File: fig_30_f.png Graphic file (type png)
+<use fig_30_f.png>
+Package pdftex.def Info: fig_30_f.png  used on input line 1907.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_g.png, id=1565, 462.528pt x 346.896pt>
+File: fig_30_g.png Graphic file (type png)
+<use fig_30_g.png>
+Package pdftex.def Info: fig_30_g.png  used on input line 1914.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_h.png, id=1566, 462.528pt x 346.896pt>
+File: fig_30_h.png Graphic file (type png)
+<use fig_30_h.png>
+Package pdftex.def Info: fig_30_h.png  used on input line 1921.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+<fig_30_i.png, id=1567, 462.528pt x 346.896pt>
+File: fig_30_i.png Graphic file (type png)
+<use fig_30_i.png>
+Package pdftex.def Info: fig_30_i.png  used on input line 1928.
+(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
+ [43 <./fig_29_a.pdf> <./fig_29_b.pdf
 
-[37] [38 <./f8_0_3975_time1.png> <./f8_0_3975_time2.png> <./f8_0_3975_time3.png
-> <./f8_0_3975_time4.png>] [39 <./f8_0_47_time1.png> <./f8_0_47_time2.png> <./f
-8_0_47_time3.png> <./f8_0_47_time4.png>] [40 <./f9_0_47_time1.png> <./f9_0_47_t
-ime2.png> <./f9_0_47_time3.png> <./f9_0_47_time4.png> <./images_rings_rings_ini
-tial.png>]
-<f11_time0.png, id=1548, 462.528pt x 346.896pt>
-File: f11_time0.png Graphic file (type png)
-<use f11_time0.png>
-Package pdftex.def Info: f11_time0.png  used on input line 1822.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time1.png, id=1549, 462.528pt x 346.896pt>
-File: f11_time1.png Graphic file (type png)
-<use f11_time1.png>
-Package pdftex.def Info: f11_time1.png  used on input line 1828.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time2.png, id=1550, 462.528pt x 346.896pt>
-File: f11_time2.png Graphic file (type png)
-<use f11_time2.png>
-Package pdftex.def Info: f11_time2.png  used on input line 1834.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time3.png, id=1551, 462.528pt x 346.896pt>
-File: f11_time3.png Graphic file (type png)
-<use f11_time3.png>
-Package pdftex.def Info: f11_time3.png  used on input line 1840.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time4.png, id=1552, 462.528pt x 346.896pt>
-File: f11_time4.png Graphic file (type png)
-<use f11_time4.png>
-Package pdftex.def Info: f11_time4.png  used on input line 1846.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time5.png, id=1553, 462.528pt x 346.896pt>
-File: f11_time5.png Graphic file (type png)
-<use f11_time5.png>
-Package pdftex.def Info: f11_time5.png  used on input line 1852.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time6.png, id=1554, 462.528pt x 346.896pt>
-File: f11_time6.png Graphic file (type png)
-<use f11_time6.png>
-Package pdftex.def Info: f11_time6.png  used on input line 1858.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time7.png, id=1555, 462.528pt x 346.896pt>
-File: f11_time7.png Graphic file (type png)
-<use f11_time7.png>
-Package pdftex.def Info: f11_time7.png  used on input line 1864.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
-<f11_time8.png, id=1556, 462.528pt x 346.896pt>
-File: f11_time8.png Graphic file (type png)
-<use f11_time8.png>
-Package pdftex.def Info: f11_time8.png  used on input line 1870.
-(pdftex.def)             Requested size: 117.00119pt x 87.75066pt.
- [41 <./f10_a_b_0_3975_x.pdf> <./f10_a_b_0_3975_y.pdf
-
-pdfTeX warning: pdflatex (file ./f10_a_b_0_3975_y.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
->] [42 <./f11_time0.png> <./f11_time1.png> <./f11_time2.png> <./f11_time3.png> 
-<./f11_time4.png> <./f11_time5.png> <./f11_time6.png> <./f11_time7.png> <./f11_
-time8.png>] [43] (./paper.bbl [44] [45] [46] [47] [48]) [49]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1973.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1973.
+pdfTeX warning: pdflatex (file ./fig_29_b.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+>] [44 <./fig_30_a.png> <./fig_30_b.png> <./fig_30_c.png> <./fig_30_d.png> <./f
+ig_30_e.png> <./fig_30_f.png> <./fig_30_g.png> <./fig_30_h.png> <./fig_30_i.png
+>] [45] (./paper.bbl [46] [47] [48] [49] [50]) [51]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2031.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2031.
  (./paper.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1973.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1973.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2031.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2031.
 
 Package rerunfilecheck Info: File `paper.out' has not changed.
 (rerunfilecheck)             Checksum: 94C53166A206711D507A2411D4DA4F8A;1363.
@@ -1612,11 +1593,11 @@ Package rerunfilecheck Info: File `paper.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1973.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2031.
  ) 
 Here is how much of TeX's memory you used:
- 21944 strings out of 492982
- 411184 string characters out of 6134896
+ 21946 strings out of 492982
+ 408618 string characters out of 6134896
  468932 words of memory out of 5000000
  24851 multiletter control sequences out of 15000+600000
  17904 words of font info for 67 fonts, out of 8000000 for 9000
@@ -1645,10 +1626,10 @@ onts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
 
-Output written on paper.pdf (49 pages, 9953533 bytes).
+Output written on paper.pdf (51 pages, 9954372 bytes).
 PDF statistics:
- 1860 PDF objects out of 2073 (max. 8388607)
- 1002 compressed objects within 11 object streams
- 219 named destinations out of 1000 (max. 500000)
+ 1870 PDF objects out of 2073 (max. 8388607)
+ 1010 compressed objects within 11 object streams
+ 221 named destinations out of 1000 (max. 500000)
  471 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,130 @@
+INFO|2021-04-11 00:26:48,991|pysph.solver.application|Started as:
+code/hvi.py --openmp --cache-nnps --kernel-choice=1 --pst=sun2019 --no-uhat-velgrad --uhat-cont --continuity-tvf-correction --no-shear-stress-tvf-correction --no-edac --no-surf-p-zero --pfreq=4294967296 -d outputs/high_velocity_impact/etvf_sun2019
+INFO|2021-04-11 00:26:48,991|pysph.solver.application|Running on dinesh-Inspiron-7572 with address 127.0.1.1
+INFO|2021-04-11 00:26:48,991|pysph.solver.application|Using OpenMP
+INFO|2021-04-11 00:26:48,991|pysph.solver.application|Using OpenMP schedule dynamic,64
+INFO|2021-04-11 00:26:49,009|pysph.solver.application|Generating output in /home/dinesh/etvf/outputs/high_velocity_impact/etvf_sun2019
+INFO|2021-04-11 00:26:49,084|compyle.ext_module|Precompiled code from: /home/dinesh/.pysph/source/py3.8-linux-x86_64/m_22740c5c9af31a1281638f7ace0e6be4.pyx
+INFO|2021-04-11 00:26:49,153|compyle.ext_module|Compiling code at: /home/dinesh/.pysph/source/py3.8-linux-x86_64/m_c5915f8c41cec199db96f705787ececd.pyx
+INFO|2021-04-11 00:26:56,762|pysph.solver.application|----------------------------------------------------------------------
+No of particles:
+  structure: 3913
+  cylinder: 2828
+  Total: 6741
+----------------------------------------------------------------------
+INFO|2021-04-11 00:26:56,762|pysph.solver.application|Using kernel:
+----------------------------------------------------------------------
+  QuinticSpline(dim=2)
+----------------------------------------------------------------------
+INFO|2021-04-11 00:26:56,762|pysph.solver.application|Using nnps:
+----------------------------------------------------------------------
+  LinkedListNNPS(dim=2)
+----------------------------------------------------------------------
+INFO|2021-04-11 00:26:56,762|pysph.solver.application|Using integrator:
+----------------------------------------------------------------------
+  GTVFIntegrator(cylinder=SolidMechStep(), structure=SolidMechStep())
+----------------------------------------------------------------------
+INFO|2021-04-11 00:26:56,762|pysph.solver.application|Using equations:
+----------------------------------------------------------------------
+MultiStageEquations(groups=[
+  [
+  # Stage 0
+  Group(equations=[
+      ContinuityEquationUhat(dest='cylinder', sources=['cylinder',
+      'structure']), 
+      ContinuityEquationETVFCorrection(dest='cylinder', sources=['cylinder',
+      'structure']), 
+      VelocityGradient2D(dest='cylinder', sources=['cylinder', 'structure']), 
+      ContinuityEquationUhat(dest='structure', sources=['cylinder',
+      'structure']), 
+      ContinuityEquationETVFCorrection(dest='structure',
+      sources=['cylinder', 'structure']), 
+      VelocityGradient2D(dest='structure', sources=['cylinder',
+      'structure'])
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0), 
+  Group(equations=[
+      HookesDeviatoricStressRate(dest='cylinder', sources=None), 
+      HookesDeviatoricStressRate(dest='structure', sources=None)
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0)
+  # End Stage 0
+  ],
+  [
+  # Stage 1
+  Group(equations=[
+      SetHIJForInsideParticles(dest='cylinder', sources=['cylinder'],
+      h=0.00019999999999999998, kernel_factor=3), 
+      SetHIJForInsideParticles(dest='structure', sources=['structure'],
+      h=0.00019999999999999998, kernel_factor=3)
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0), 
+  Group(equations=[
+      ComputeJ2(dest='structure', sources=None), 
+      LimitDeviatoricStress(dest='structure', sources=None,
+      yield_modulus=300000000.0), 
+      ComputeJ2(dest='cylinder', sources=None), 
+      LimitDeviatoricStress(dest='cylinder', sources=None,
+      yield_modulus=300000000.0)
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0), 
+  Group(equations=[
+      IsothermalEOS(dest='cylinder', sources=None), 
+      IsothermalEOS(dest='structure', sources=None)
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0), 
+  Group(equations=[
+      MonaghanArtificialViscosity(dest='cylinder', sources=['cylinder',
+      'structure'], alpha=1.0, beta=0.0), 
+      MomentumEquationSolids(dest='cylinder', sources=['cylinder',
+      'structure']), 
+      ComputeAuHatETVFSun2019Solid(dest='cylinder', sources=['cylinder',
+      'structure'], mach_no=0.8515248926820302, u_max=4500.0), 
+      MonaghanArtificialViscosity(dest='structure', sources=['cylinder',
+      'structure'], alpha=1.0, beta=0.0), 
+      MomentumEquationSolids(dest='structure', sources=['cylinder',
+      'structure']), 
+      ComputeAuHatETVFSun2019Solid(dest='structure', sources=['cylinder',
+      'structure'], mach_no=0.8515248926820302, u_max=4500.0)
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0), 
+  Group(equations=[
+      MakeAccelerationZeroOnSelectedIndices(dest='structure', sources=None)
+    ],
+    real=True, update_nnps=False, iterate=False, max_iterations=1,
+    min_iterations=0, start_idx=0)
+  # End Stage 1
+  ],
+])
+----------------------------------------------------------------------
+INFO|2021-04-11 00:26:56,764|pysph.solver.application|Callbacks:
+----------------------------------------------------------------------
+
+INFO|2021-04-11 00:26:56,764|pysph.solver.application|Pre-step callbacks:
+[<bound method HVI.pre_step of <__main__.HVI object at 0x7fe12e7963a0>>]
+
+INFO|2021-04-11 00:26:56,764|pysph.solver.application|Post-step callbacks:
+[]
+
+INFO|2021-04-11 00:26:56,764|pysph.solver.application|Post-stage callbacks:
+[]
+----------------------------------------------------------------------
+
+INFO|2021-04-11 00:26:56,764|pysph.solver.application|Setup took: 7.77508 secs
+INFO|2021-04-11 00:26:56,764|pysph.solver.solver|Writing output at time 0, iteration 0, dt = 9.96751e-09
+INFO|2021-04-11 00:26:56,919|compyle.ext_module|Compiling code at: /home/dinesh/.pysph/source/py3.8-linux-x86_64/m_a0fa7af8fe5950c1b53e2a759de42d29.pyx
+INFO|2021-04-11 00:27:04,103|pysph.solver.solver|Writing output at time 1e-06, iteration 101, dt = 9.96751e-09
+INFO|2021-04-11 00:27:05,995|pysph.solver.solver|Writing output at time 2e-06, iteration 202, dt = 9.96751e-09
+INFO|2021-04-11 00:27:07,866|pysph.solver.solver|Writing output at time 3e-06, iteration 303, dt = 9.96751e-09
+INFO|2021-04-11 00:27:09,861|pysph.solver.solver|Writing output at time 4e-06, iteration 404, dt = 9.96751e-09
+INFO|2021-04-11 00:27:11,841|pysph.solver.solver|Writing output at time 5e-06, iteration 505, dt = 9.96751e-09
+INFO|2021-04-11 00:27:13,828|pysph.solver.solver|Writing output at time 6e-06, iteration 606, dt = 9.96751e-09
+INFO|2021-04-11 00:27:15,919|pysph.solver.solver|Writing output at time 7e-06, iteration 707, dt = 9.96751e-09
+INFO|2021-04-11 00:27:18,068|pysph.solver.solver|Writing output at time 8e-06, iteration 808, dt = 3.24879e-09
+INFO|2021-04-11 00:27:18,175|pysph.solver.application|Run took: 21.41078 secs
