@@ -1,0 +1,21 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Governing equations}{}% 2
+\BOOKMARK [1][-]{section.3}{Numerical method}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{The EDAC-SPH method}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{SPH discretization}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Particle transport}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Sun 2019 PST}{subsection.3.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.3.2}{IPST}{subsection.3.3}% 8
+\BOOKMARK [2][-]{subsection.3.4}{Free surface identification algorithm}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.5}{PST close to the free surface}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.6}{Boundary conditions}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.7}{Time integration}{section.3}% 12
+\BOOKMARK [1][-]{section.4}{Results}{}% 13
+\BOOKMARK [2][-]{subsection.4.1}{Taylor-Green vortex}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.2}{Lid driven cavity}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.3}{2D Dam-break}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.4}{Oscillating plate}{section.4}% 17
+\BOOKMARK [2][-]{subsection.4.5}{Uniaxial compression}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.6}{Colliding Rings}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.7}{High velocity impact}{section.4}% 20
+\BOOKMARK [1][-]{section.5}{Discussion and conclusions}{}% 21
